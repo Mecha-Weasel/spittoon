@@ -1,3 +1,6 @@
+Project "Spittoon"
+------------------
+
 Instructions to test Weasel's highlighted-server-browser (HSB) client-side modification:
 
 NOTE-1: This is all USE AT YOUR OWN RISK!
