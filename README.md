@@ -32,6 +32,8 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.dll
 Linux Direct Download =
 https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.so
 
+NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for anyone who cares to validate after downloading.
+
 4) Start FoF again.
 
 5) Click "Multiplayer" and give it a moment to refresh.
