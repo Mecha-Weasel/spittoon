@@ -93,5 +93,12 @@
 			"port" "0"
 			"mode" "3"
 		}
+		"0"
+		{
+			"name" "Revival Ranch"
+			"ip" "78.31.71.56"
+			"port" "0"
+			"mode" "3"
+		}
 	}
 }
