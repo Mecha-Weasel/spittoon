@@ -1,7 +1,7 @@
 //
 //	Updated 2024-02-03 by Weasel (Weasel.SteamID.155@gMail.com)
 //
-//	This is a curated list of FoF game-servers to display on the "highlighted server browser" (HSB).
+//	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
 //	The actual number of servers may be greater, due to having multiple servers hosted on the same IP address.
 //
@@ -10,6 +10,11 @@
 //		For Linux FoF clients: client.so
 //	The GitHub is:
 //		https://github.com/Mecha-Weasel/spittoon/
+//
+//	Servers intentionally EXCLUDED from this list typicalling include:
+//		Servers that push fake information into the server-list.
+//		Servers that run bots - but go out of their way to make them appear do NOT be bots (aka "fake players").
+//		The only known offender of this has historically been "FastPath".
 //
 //	The original/official list as of 2025-02-03 has not been updated in (at least) many, many months.
 //	The original/official list as of 2025-02-03 had approximately 43 entries, of which only 13 were still working.
