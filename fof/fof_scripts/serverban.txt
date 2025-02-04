@@ -60,7 +60,6 @@
 		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
 		"0" { "name" "Fox Full of Frags (DE)" "ip" "91.2.122.75" "port" "0" "mode" "3" }
-		"0" { "name" "Hotel California (DE)" "ip" "92.222.235.131" "port" "0" "mode" "3" }
 		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "0" "mode" "3" }
 		"0" { "name" "Globe (PH)" "ip" "120.28.6.146" "port" "0" "mode" "3" }
@@ -69,8 +68,6 @@
 		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "0" "mode" "3" }
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
 		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
-		"0" { "name" "Octogon 8Arene (PL)" "ip" "178.32.206.219" "port" "0" "mode" "3" }
-		"0" { "name" "KDRv (UK)" "ip" "178.32.48.53" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 		"0" { "name" "Lenclos des betes (DE)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
 		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
