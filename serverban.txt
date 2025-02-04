@@ -45,45 +45,48 @@
 		//
 		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
 		//
-		"0" { "name" "4th World" "ip" "1.116.19.197" "port" "0" "mode" "3" }
-		"0" { "name" "4th World" "ip" "47.110.160.102" "port" "0" "mode" "3" }
-		"0" { "name" "4th World" "ip" "81.69.43.95" "port" "0" "mode" "3" }
-		"0" { "name" "[ACG]" "ip" "66.212.232.236" "port" "0" "mode" "3" }
-		"0" { "name" "[ACG]" "ip" "66.212.232.237" "port" "0" "mode" "3" }
-		"0" { "name" "Revival Ranch / Mixxed" "ip" "78.31.71.56" "port" "0" "mode" "3" }
-		"0" { "name" "Casual" "ip" "79.143.181.215" "port" "0" "mode" "3" }
-		"0" { "name" "Titty Twist" "ip" "85.214.117.246" "port" "0" "mode" "3" }
-		"0" { "name" "Globe" "ip" "120.28.6.146" "port" "0" "mode" "3" }
-		"0" { "name" "FDCP" "ip" "139.99.239.66" "port" "0" "mode" "3" }
-		"0" { "name" "Our Dare" "ip" "158.247.196.98" "port" "0" "mode" "3" }
-		"0" { "name" "[WL/S³] (NA/US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
-		"0" { "name" "Phporyx" "ip" "185.132.42.12" "port" "0" "mode" "3" }
-		"0" { "name" "Kyekful (NA/US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
-		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "1.37.65.74" "port" "0" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "1.37.42.226" "port" "0" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "1.116.19.197" "port" "0" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "47.110.160.102" "port" "0" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "0" "mode" "3" }
+		"0" { "name" "Clan Host (AU)" "ip" "51.68.236.45" "port" "0" "mode" "3" }
+		"0" { "name" "Disturbed (FR)" "ip" "54.36.45.248" "port" "0" "mode" "3" }
+		"0" { "name" "Frostys (FR)" "ip" "54.37.178.201" "port" "0" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
+		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.236" "port" "0" "mode" "3" }
+		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.237" "port" "0" "mode" "3" }
+		"0" { "name" "Dr. No (US)" "ip" "74.91.123.66" "port" "0" "mode" "3" }
+		"0" { "name" "Zephyr (CZ)" "ip" "78.80.33.198" "port" "0" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "0" "mode" "3" }
+		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "0" "mode" "3" }
+		"0" { "name" "Casual (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
+		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
+		"0" { "name" "Fox Full of Frags (DE)" "ip" "91.2.122.75" "port" "0" "mode" "3" }
+		"0" { "name" "Fun Play (FR)" "ip" "91.134.218.181" "port" "0" "mode" "3" }
+		"0" { "name" "Hotel California (DE)" "ip" "92.222.235.131" "port" "0" "mode" "3" }
+		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "0" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "120.28.6.146" "port" "0" "mode" "3" }
 		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "0" "mode" "3" }
-		"0" { "name" "NullVoid" "ip" "102.66.194.230" "port" "0" "mode" "3" }
-		"0" { "name" "MNS" "ip" "172.75.41.11" "port" "0" "mode" "3" }
-		"0" { "name" "Octogon 8Arene (RU)" "ip" "178.32.206.219" "port" "0" "mode" "3" }
-		"0" { "name" "CLWO (EU)" "ip" "178.32.46.89" "port" "0" "mode" "3" }
-		"0" { "name" "KDRv" "ip" "178.32.48.53" "port" "0" "mode" "3" }
-		"0" { "name" "410 Bus" "ip" "178.33.116.130" "port" "0" "mode" "3" }
-		"0" { "name" "[DC]" "ip" "178.33.39.169" "port" "0" "mode" "3" }
-		"0" { "name" "Lenclos des betes (EU)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
-		"0" { "name" "Ferocious Friends" "ip" "188.165.6.153" "port" "0" "mode" "3" }
-		"0" { "name" "Austino (UK/GB)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
-		"0" { "name" "Paradise" "ip" "193.70.22.151" "port" "0" "mode" "3" }
-		"0" { "name" "Power Games (EU/BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
+		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "0" "mode" "3" }
+		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "0" "mode" "3" }
+		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
+		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
+		"0" { "name" "Octogon 8Arene (PL)" "ip" "178.32.206.219" "port" "0" "mode" "3" }
+		"0" { "name" "CLWO (FR)" "ip" "178.32.46.89" "port" "0" "mode" "3" }
+		"0" { "name" "KDRv (UK)" "ip" "178.32.48.53" "port" "0" "mode" "3" }
+		"0" { "name" "[DC] (DE)" "ip" "178.33.39.169" "port" "0" "mode" "3" }
+		"0" { "name" "410 Bus (FR)" "ip" "178.33.116.130" "port" "0" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
+		"0" { "name" "Lenclos des betes (DE)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
+		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
+		"0" { "name" "Ferocious Friends (FR)" "ip" "188.165.6.153" "port" "0" "mode" "3" }
+		"0" { "name" "Avalon (FR)" "ip" "188.165.27.233" "port" "0" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
+		"0" { "name" "Paradise (FR)" "ip" "193.70.22.151" "port" "0" "mode" "3" }
+		"0" { "name" "Power Games (BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
 		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
-		"0" { "name" "PingPerfect" "ip" "208.115.196.35" "port" "0" "mode" "3" }
-		"0" { "name" "Clan Host (AU)" "ip" "51.68.236.45" "port" "0" "mode" "3" }
-		"0" { "name" "Frostys" "ip" "54.37.178.201" "port" "0" "mode" "3" }
-		"0" { "name" "Zephyr" "ip" "78.80.33.198" "port" "0" "mode" "3" }
-		"0" { "name" "Fun Play (EU)" "ip" "91.134.218.181" "port" "0" "mode" "3" }
-		"0" { "name" "Hotel California" "ip" "92.222.235.131" "port" "0" "mode" "3" }
-		"0" { "name" "Fox Full of Frags" "ip" "91.2.122.75" "port" "0" "mode" "3" }
-		"0" { "name" "Disturbed" "ip" "54.36.45.248" "port" "0" "mode" "3" }
-		"0" { "name" "Avalon (EU)" "ip" "188.165.27.233" "port" "0" "mode" "3" }
-		"0" { "name" "Dr. No" "ip" "74.91.123.66" "port" "0" "mode" "3" }
+		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
 	}
 }
