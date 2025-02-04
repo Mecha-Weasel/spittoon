@@ -26,7 +26,11 @@ C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin
 
 3) Download the unofficial/modded "client.dll" file from this GitHub and use it to replace the original/official version:
 
-https://github.com/Mecha-Weasel/spittoon/tree/main/fof/bin
+Windows Direct Download =
+https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.dll
+
+Linux Direct Download =
+https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.so
 
 4) Start FoF again.
 
