@@ -41,7 +41,7 @@
 		//		"mode"	"3"
 		//	}
 		//
-		//	Same example, in condense (Excel-generatable) format:
+		//	Same example, in condensed (Excel-generatable) format:
 		//
 		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
 		//
