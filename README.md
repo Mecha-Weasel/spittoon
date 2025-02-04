@@ -13,7 +13,7 @@ This work-around modifies how the FoF client operates to use a different URL (th
 Installation:
 ------------
 
-NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file.
+NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also in this GitHub.
 
 If you have FoF open, close it.
 
