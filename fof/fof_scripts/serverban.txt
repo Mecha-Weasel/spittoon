@@ -60,11 +60,11 @@
 		"0" { "name" "Zephyr (CZ)" "ip" "78.80.33.198" "port" "0" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "0" "mode" "3" }
 		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "0" "mode" "3" }
-		"0" { "name" "Casual (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
 		"0" { "name" "Fox Full of Frags (DE)" "ip" "91.2.122.75" "port" "0" "mode" "3" }
 		"0" { "name" "Fun Play (FR)" "ip" "91.134.218.181" "port" "0" "mode" "3" }
 		"0" { "name" "Hotel California (DE)" "ip" "92.222.235.131" "port" "0" "mode" "3" }
+		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "0" "mode" "3" }
 		"0" { "name" "Globe (PH)" "ip" "120.28.6.146" "port" "0" "mode" "3" }
 		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "0" "mode" "3" }
