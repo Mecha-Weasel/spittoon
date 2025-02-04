@@ -44,7 +44,4 @@ The HSB data in this GitHub will be updated periodically as needed.
 
 Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by / who is responsible for it.
 
-Likewise, any FoF dedicated server operator who might (for whatever reason) to have their server removed from the HSB, please feel free to reach-out similarly.
-
-
-
+Likewise, any FoF dedicated server operator who might (for whatever reason) to have their server REMOVED from the HSB, please feel free to reach-out similarly.
