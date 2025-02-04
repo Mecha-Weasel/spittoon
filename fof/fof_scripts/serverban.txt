@@ -50,7 +50,6 @@
 		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "0" "mode" "3" }
 		"0" { "name" "4th World (CN)" "ip" "1.116.19.197" "port" "0" "mode" "3" }
 		"0" { "name" "4th World (CN)" "ip" "47.110.160.102" "port" "0" "mode" "3" }
-		"0" { "name" "Clan Host (AU)" "ip" "51.68.236.45" "port" "0" "mode" "3" }
 		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
 		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.236" "port" "0" "mode" "3" }
 		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.237" "port" "0" "mode" "3" }
