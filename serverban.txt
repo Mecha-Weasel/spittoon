@@ -51,8 +51,6 @@
 		"0" { "name" "4th World (CN)" "ip" "1.116.19.197" "port" "0" "mode" "3" }
 		"0" { "name" "4th World (CN)" "ip" "47.110.160.102" "port" "0" "mode" "3" }
 		"0" { "name" "Clan Host (AU)" "ip" "51.68.236.45" "port" "0" "mode" "3" }
-		"0" { "name" "Disturbed (FR)" "ip" "54.36.45.248" "port" "0" "mode" "3" }
-		"0" { "name" "Frostys (FR)" "ip" "54.37.178.201" "port" "0" "mode" "3" }
 		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
 		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.236" "port" "0" "mode" "3" }
 		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.237" "port" "0" "mode" "3" }
@@ -62,7 +60,6 @@
 		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
 		"0" { "name" "Fox Full of Frags (DE)" "ip" "91.2.122.75" "port" "0" "mode" "3" }
-		"0" { "name" "Fun Play (FR)" "ip" "91.134.218.181" "port" "0" "mode" "3" }
 		"0" { "name" "Hotel California (DE)" "ip" "92.222.235.131" "port" "0" "mode" "3" }
 		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "0" "mode" "3" }
@@ -73,7 +70,6 @@
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
 		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
 		"0" { "name" "Octogon 8Arene (PL)" "ip" "178.32.206.219" "port" "0" "mode" "3" }
-		"0" { "name" "CLWO (FR)" "ip" "178.32.46.89" "port" "0" "mode" "3" }
 		"0" { "name" "KDRv (UK)" "ip" "178.32.48.53" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 		"0" { "name" "Lenclos des betes (DE)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
