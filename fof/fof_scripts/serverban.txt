@@ -1,0 +1,72 @@
+"server_bans"
+{
+	"mode"
+	{
+		"whitelisting" "1"
+	}
+	//
+	//	NOTE: Not sure what this accomplishes anymore.
+	//
+	"spam"
+	{
+		"tags" "[WL],[S³],[WL/S³],Spittoon,Kyekful,4th World"
+	}
+	//
+	//	NOTE: The "ranked" function seems to be obsolete.
+	//
+	//"ranked"
+	//{
+	//	"season" "3"
+	//	"end_day"   "30"
+	//	"end_month" "9"
+	//	"end_year"  "2021"
+	//}
+	//
+	//	Servers may be entered by just IP address or with IP:Port notation for individual servers.
+	//
+	"entries"
+	{
+		"0"
+		{
+			"name"	"[WL/S³]"
+			"ip"	"162.248.88.40"
+			"port" "0"
+			"mode"	"2"
+		}
+		"0"
+		{
+			"name"	"Kyekful"
+			"ip"	"64.52.108.128"
+			"port" "0"
+			"mode"	"3"
+		}
+		"0"
+		{
+			"name" "[ACG]"
+			"ip" "66.212.232.236"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "Titty Twister"
+			"ip" "85.214.117.246"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "Far West Brazil"
+			"ip" "191.36.129.72"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "Lemons AU"
+			"ip" "123.51.39.110"
+			"port" "0"
+			"mode" "3"
+		}
+	}
+}
