@@ -30,13 +30,21 @@
 	//
 	"entries"
 	{
-		//"0"
-		//{
-		//	"name"	"[WL/S³]"
-		//	"ip"	"162.248.88.40"
-		//	"port" "0"
-		//	"mode"	"3"
-		//}
+		//
+		//	Example, in original format:
+		//
+		//	"0"
+		//	{
+		//		"name"	"[WL/S³]"
+		//		"ip"	"162.248.88.40"
+		//		"port" "0"
+		//		"mode"	"3"
+		//	}
+		//
+		//	Same example, in condense (Excel-generatable) format:
+		//
+		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
+		//
 		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
 		"0"
 		{
