@@ -4,7 +4,6 @@ Project "Spittoon"
 Instructions to test Weasel's highlighted-server-browser (HSB) client-side modification:
 
 NOTE-1: This is all USE AT YOUR OWN RISK!
-NOTE-2: Please do NOT publish this publicly yet.  I am still working on it and documenting it.
 
 If you have FoF open, close it.
 
