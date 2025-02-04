@@ -4,17 +4,26 @@
 	{
 		"whitelisting" "1"
 	}
+	//
+	//	NOTE: Not sure what this accomplishes anymore.
+	//
 	"spam"
 	{
 		"tags" "[WL],[S³],[WL/S³],Spittoon,Kyekful,4th World"
 	}
-	"ranked"
-	{
-		"season" "3"
-		"end_day"   "30"
-		"end_month" "9"
-		"end_year"  "2021"
-	}
+	//
+	//	NOTE: The "ranked" function seems to be obsolete.
+	//
+	//"ranked"
+	//{
+	//	"season" "3"
+	//	"end_day"   "30"
+	//	"end_month" "9"
+	//	"end_year"  "2021"
+	//}
+	//
+	//	Servers may be entered by just IP address or with IP:Port notation for individual servers.
+	//
 	"entries"
 	{
 		"0"
