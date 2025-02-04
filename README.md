@@ -18,7 +18,7 @@ NOTE: Although these instructions are specifically for Windows, equivelant actio
 
 1) If you have FoF open, close it.
 
-2) Make a backup copy of the original/official "client.dll" file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.
+2) Make a backup copy of the original/official "client.dll" file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.  Just in case you "forget" to do this, there is also a backup copy in the GitHub.
 
 It should be located here in this folder (for Windows):
 
