@@ -3,7 +3,7 @@ Project "Spittoon"
 
 Instructions to test Weasel's Fistful-of-Frags highlighted-server-browser (HSB) client-side modification:
 
-NOTE-1: This is all USE AT YOUR OWN RISK!
+NOTE: This is all USE AT YOUR OWN RISK!
 
 If you have FoF open, close it.
 
