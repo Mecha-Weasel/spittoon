@@ -9,6 +9,8 @@ Since he's been away from the game for nearly two (2) years now, that HSB data (
 
 This work-around is not a reflection or judgement of the author, it is just dealing with the reality that FoF players currently face.  Should the developer come back to actively maintaining FoF, this work-around will obviously become irrelevant, as he can just update the HSB with similar content through the original URL, and push-out an FoF update through Steam that will roll-back / over-write this customization entirely.  Which, of course, would negate the NEED for this work-around (assuming he stays engaged with the game).
 
+Again, the goal here is not to "usurp control" of the game from the developer.  It is just to "work-around" his (prolonged) absense.
+
 Installation:
 ------------
 
