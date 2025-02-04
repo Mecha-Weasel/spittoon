@@ -1,3 +1,6 @@
+//
+//	Updated 20240203 by Weasel (Weasel.SteamID.155@gMail.com)
+//
 "server_bans"
 {
 	"mode"
@@ -5,11 +8,11 @@
 		"whitelisting" "1"
 	}
 	//
-	//	NOTE: Not sure what this accomplishes anymore.
+	//	NOTE: Not sure what "spam" section accomplishes anymore.
 	//
 	"spam"
 	{
-		"tags" "[WL],[S³],[WL/S³],Spittoon,Kyekful,4th World"
+		"tags" ""
 	}
 	//
 	//	NOTE: The "ranked" function seems to be obsolete.
@@ -23,6 +26,7 @@
 	//}
 	//
 	//	Servers may be entered by just IP address or with IP:Port notation for individual servers.
+	//	Seems like all should be mode 3, and the HSB will sort them out by category automatically.
 	//
 	"entries"
 	{
@@ -36,7 +40,7 @@
 		"0"
 		{
 			"name"	"Kyekful"
-			"ip"	"64.52.108.128"
+			"ip"	"64.52.108.128:27017"
 			"port" "0"
 			"mode"	"3"
 		}
@@ -44,6 +48,27 @@
 		{
 			"name" "[ACG]"
 			"ip" "66.212.232.236"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "4th World, 1st IP"
+			"ip" "1.116.19.197"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "4th World, 2nd IP"
+			"ip" "47.110.160.102"
+			"port" "0"
+			"mode" "3"
+		}
+		"0"
+		{
+			"name" "4th World, 3rd IP"
+			"ip" "81.69.43.95"
 			"port" "0"
 			"mode" "3"
 		}
