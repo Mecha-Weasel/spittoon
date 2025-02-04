@@ -56,10 +56,35 @@
 		"0" { "name" "Globe" "ip" "120.28.6.146" "port" "0" "mode" "3" }
 		"0" { "name" "FDCP" "ip" "139.99.239.66" "port" "0" "mode" "3" }
 		"0" { "name" "Our Dare" "ip" "158.247.196.98" "port" "0" "mode" "3" }
-		"0" { "name" "[WL/S³]" "ip" "162.248.88.40" "port" "0" "mode" "3" }
+		"0" { "name" "[WL/S³] (NA/US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx" "ip" "185.132.42.12" "port" "0" "mode" "3" }
-		"0" { "name" "Kyekful" "ip" "64.52.108.128" "port" "0" "mode" "3" }
-		"0" { "name" "Far West Brazil" "ip" "191.36.129.72" "port" "0" "mode" "3" }
-		"0" { "name" "Lemons AU" "ip" "123.51.39.110" "port" "0" "mode" "3" }
+		"0" { "name" "Kyekful (NA/US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
+		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "0" "mode" "3" }
+		"0" { "name" "NullVoid" "ip" "102.66.194.230" "port" "0" "mode" "3" }
+		"0" { "name" "MNS" "ip" "172.75.41.11" "port" "0" "mode" "3" }
+		"0" { "name" "Octogon 8Arene (RU)" "ip" "178.32.206.219" "port" "0" "mode" "3" }
+		"0" { "name" "CLWO (EU)" "ip" "178.32.46.89" "port" "0" "mode" "3" }
+		"0" { "name" "KDRv" "ip" "178.32.48.53" "port" "0" "mode" "3" }
+		"0" { "name" "410 Bus" "ip" "178.33.116.130" "port" "0" "mode" "3" }
+		"0" { "name" "[DC]" "ip" "178.33.39.169" "port" "0" "mode" "3" }
+		"0" { "name" "Lenclos des betes (EU)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
+		"0" { "name" "Ferocious Friends" "ip" "188.165.6.153" "port" "0" "mode" "3" }
+		"0" { "name" "Austino (UK/GB)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
+		"0" { "name" "Paradise" "ip" "193.70.22.151" "port" "0" "mode" "3" }
+		"0" { "name" "Power Games (EU/BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
+		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
+		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
+		"0" { "name" "PingPerfect" "ip" "208.115.196.35" "port" "0" "mode" "3" }
+		"0" { "name" "Clan Host (AU)" "ip" "51.68.236.45" "port" "0" "mode" "3" }
+		"0" { "name" "Frostys" "ip" "54.37.178.201" "port" "0" "mode" "3" }
+		"0" { "name" "Zephyr" "ip" "78.80.33.198" "port" "0" "mode" "3" }
+		"0" { "name" "Fun Play (EU)" "ip" "91.134.218.181" "port" "0" "mode" "3" }
+		"0" { "name" "Hotel California" "ip" "92.222.235.131" "port" "0" "mode" "3" }
+		"0" { "name" "Fox Full of Frags" "ip" "91.2.122.75" "port" "0" "mode" "3" }
+		"0" { "name" "Escape" "ip" "94.23.68.241" "port" "0" "mode" "3" }
+		"0" { "name" "Disturbed" "ip" "54.36.45.248" "port" "0" "mode" "3" }
+		"0" { "name" "Avalon (EU)" "ip" "188.165.27.233" "port" "0" "mode" "3" }
+		"0" { "name" "Dr. No" "ip" "74.91.123.66" "port" "0" "mode" "3" }
 	}
 }
