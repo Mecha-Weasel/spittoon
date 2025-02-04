@@ -14,21 +14,21 @@ Installation:
 
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
-If you have FoF open, close it.
+1) If you have FoF open, close it.
 
-Make a backup copy of the original/official "client.dll" file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.
+2) Make a backup copy of the original/official "client.dll" file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.
 
 It should be located here in this folder (for Windows):
 
 C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin
 
-Download the unofficial/modded "client.dll" file from this GitHub and use it to replace the original/official version:
+3) Download the unofficial/modded "client.dll" file from this GitHub and use it to replace the original/official version:
 
 https://github.com/Mecha-Weasel/spittoon/tree/main/fof/bin
 
-Start FoF again.
+4) Start FoF again.
 
-Click "Multiplayer" and give it a moment to refresh.
+5) Click "Multiplayer" and give it a moment to refresh.
 
 Usage:
 -----
