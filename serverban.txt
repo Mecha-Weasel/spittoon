@@ -5,11 +5,11 @@
 		"whitelisting" "1"
 	}
 	//
-	//	NOTE: Not sure what this accomplishes anymore.
+	//	NOTE: Not sure what "spam" section accomplishes anymore.
 	//
 	"spam"
 	{
-		"tags" "[WL],[S³],[WL/S³],Spittoon,Kyekful,4th World"
+		"tags" ""
 	}
 	//
 	//	NOTE: The "ranked" function seems to be obsolete.
