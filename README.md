@@ -37,3 +37,14 @@ Usage:
 
 As always, exactly which servers show-up will vary greatly - based on which ones are empty, busy, high-latency or low-latency from your location.  However, the potential pool includes 30 working IP address now, instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Each IP address may have several servers associated with it (ala Kyekful, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
 
+Updates:
+-------
+
+The HSB data in this GitHub will be updated periodically as needed.
+
+Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by / who is responsible for it.
+
+Likewise, any FoF dedicated server operator who might (for whatever reason) to have their server removed from the HSB, please feel free to reach-out similarly.
+
+
+
