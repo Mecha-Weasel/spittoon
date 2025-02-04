@@ -45,69 +45,22 @@
 		//
 		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
 		//
-		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
-		"0"
-		{
-			"name"	"Kyekful"
-			"ip"	"64.52.108.128"
-			"port" "0"
-			"mode"	"3"
-		}
-		"0"
-		{
-			"name" "[ACG]"
-			"ip" "66.212.232.236"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "4th World, 1st IP"
-			"ip" "1.116.19.197"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "4th World, 2nd IP"
-			"ip" "47.110.160.102"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "4th World, 3rd IP"
-			"ip" "81.69.43.95"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "Titty Twister"
-			"ip" "85.214.117.246"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "Far West Brazil"
-			"ip" "191.36.129.72"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "Lemons AU"
-			"ip" "123.51.39.110"
-			"port" "0"
-			"mode" "3"
-		}
-		"0"
-		{
-			"name" "Revival Ranch"
-			"ip" "78.31.71.56"
-			"port" "0"
-			"mode" "3"
-		}
+		"0" { "name" "4th World" "ip" "1.116.19.197" "port" "0" "mode" "3" }
+		"0" { "name" "4th World" "ip" "47.110.160.102" "port" "0" "mode" "3" }
+		"0" { "name" "[ACG]" "ip" "66.212.232.236" "port" "0" "mode" "3" }
+		"0" { "name" "[ACG]" "ip" "66.212.232.237" "port" "0" "mode" "3" }
+		"0" { "name" "Revival Ranch / Mixxed" "ip" "78.31.71.56" "port" "0" "mode" "3" }
+		"0" { "name" "Casual" "ip" "79.143.181.215" "port" "0" "mode" "3" }
+		"0" { "name" "4th World" "ip" "81.69.43.95" "port" "0" "mode" "3" }
+		"0" { "name" "Titty Twist" "ip" "85.214.117.246" "port" "0" "mode" "3" }
+		"0" { "name" "Globe" "ip" "120.28.6.146" "port" "0" "mode" "3" }
+		"0" { "name" "FDCP" "ip" "139.99.239.66" "port" "0" "mode" "3" }
+		"0" { "name" "Our Dare" "ip" "158.247.196.98" "port" "0" "mode" "3" }
+		"0" { "name" "[WL/S³]" "ip" "162.248.88.40" "port" "0" "mode" "3" }
+		"0" { "name" "Phporyx" "ip" "185.132.42.12" "port" "0" "mode" "3" }
+		"0" { "name" "Kyekful" "ip" "64.52.108.128" "port" "0" "mode" "3" }
+		"0" { "name" "Far West Brazil" "ip" "191.36.129.72" "port" "0" "mode" "3" }
+		"0" { "name" "Lemons AU" "ip" "123.51.39.110" "port" "0" "mode" "3" }
+		"0" { "name" "Phporyx" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 	}
 }
