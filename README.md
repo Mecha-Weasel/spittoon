@@ -1,7 +1,7 @@
 Project "Spittoon"
 ------------------
 
-Instructions to test Weasel's Fistful-of-Frags highlighted-server-browser (HSB) client-side modification:
+Instructions to test Weasel's Fistful-of-Frags highlighted-server-browser (HSB) client-side work-around:
 
 NOTE: This is all USE AT YOUR OWN RISK!
 
