@@ -63,7 +63,7 @@ For those that host FoF servers and you host any custom/non-default maps, you ma
 2) Placing these thumbnails in your servers fof/materials/vgui/maps folder.
 3) Ensuring these thumbnails get downloaded to connecting clients, using either .RES files for each map and/or SourceMods download feature.
 
-For your convienence, I have included three (3) additional resources in the GitHub:
+For your convienence, I have included several additional resources in the GitHub:
 
 1) Thumbnails (in .VTF/.VMT format) for some common custom/non-default maps.
 2) A sample downloads_simple.ini - for those using SourceMod on their FoF server.
