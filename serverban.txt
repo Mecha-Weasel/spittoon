@@ -1,5 +1,5 @@
 //
-//	Updated 2024-02-03 by Weasel (Weasel.SteamID.155@gMail.com)
+//	Updated 2024-02-04 by Weasel (Weasel.SteamID.155@gMail.com)
 //
 //	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
@@ -35,13 +35,13 @@
 	//
 	//	NOTE: The "ranked" function seems to be obsolete.
 	//
-	//"ranked"
-	//{
-	//	"season" "3"
-	//	"end_day"   "30"
-	//	"end_month" "9"
-	//	"end_year"  "2021"
-	//}
+	"ranked"
+	{
+		"season" "3"
+		"end_day"   "30"
+		"end_month" "9"
+		"end_year"  "2021"
+	}
 	//
 	//	Servers may be entered by just IP address or with IP:Port notation for individual servers.
 	//	Seems like all should be mode 3, and the HSB will sort them out by category automatically.
