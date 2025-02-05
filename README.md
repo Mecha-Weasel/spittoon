@@ -53,3 +53,14 @@ The HSB data in this GitHub will be updated periodically as needed.
 Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by / who is responsible for it.
 
 Likewise, any FoF dedicated server operator who might (for whatever reason) to have their server REMOVED from the HSB, please feel free to reach-out similarly.
+
+Optional Stuff (mostly for Server Operators):
+--------------
+
+For those that host FoF servers and you host any custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can easily be fixed by:
+
+1) Ensuring thumbnails (in .VTF/.VMT format) exist.
+2) Placing these thumbnails in your servers fof/materials/vgui/maps folder.
+3) Ensuring these thumbnails get downloaded to connecting clients, using either .RES files for each map and/or SourceMods download feature.
+
+For your convienence, I have included in the GitHub thumbnails (in .VTF/.VMT format) for some common custom/non-default maps.  Also included is a sample downloads_simple.ini for those using SourceMod on their FoF server.
