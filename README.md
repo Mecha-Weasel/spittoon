@@ -41,9 +41,9 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 Usage:
 -----
 
-Play the game as normal.  The HSB should show as normal, just with more potential servers for it to pick from to display.
+Play the game as normal.  The HSB should show as normal, just with more potential servers for it to pick from to offer as potential games to join.
 
-As always, exactly which servers show-up for YOU will vary greatly - based on which ones are empty, busy, high-latency or low-latency from your location.  However, the potential pool includes 30 working IP address now, instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Each IP address may have several servers associated with it (ala Kyekful, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
+As always, exactly which servers show-up for YOU will vary greatly - based on which ones are empty, busy, your latency to the server, etc.  However, the potential pool includes 30 working IP addresses now -  instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Further, each IP address may have several servers associated with it (ala Kyekful, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
 
 Updates:
 -------
