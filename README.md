@@ -67,6 +67,6 @@ For your convienence, I have included three (3) additional resources in the GitH
 
 1) Thumbnails (in .VTF/.VMT format) for some common custom/non-default maps.
 2) A sample downloads_simple.ini - for those using SourceMod on their FoF server.
-3) A zip file for easy download, containing all the thumbnails in .VTF/.VMT format.
+3) A zip file for easy download, containing all the thumbnails in .VTF/.VMT format for use on your game-server.
 4) A zip file for easy download, containing all the thumbnails - compressed using Bzip2 for your "Fast Download" (sv_downloadurl) back-end web-server.
 
