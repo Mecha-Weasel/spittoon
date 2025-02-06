@@ -54,7 +54,7 @@ Any FoF dedicated server operator whose server is not already listed, is welcome
 
 Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
 
-Optional Stuff (mostly for Server Operators):
+Optional Stuff (mostly for server operators):
 --------------
 
 For those that host FoF servers with custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can be fixed by:
