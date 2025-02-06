@@ -41,29 +41,29 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 Usage:
 -----
 
-Play the game as normal.  The HSB should show as normal, just with more potential servers for it to pick from to offer as potential games to join.
+Play the game as normal.  The HSB should show as normal, just with more potential servers for it to offer as potential games to join.
 
-As always, exactly which servers show-up for YOU will vary greatly - based on which ones are empty, busy, your latency to the server, etc.  However, the potential pool includes 30 working IP addresses now -  instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Further, each IP address may have several servers associated with it (ala Kyekful, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
+As always, exactly which servers show-up for YOU will vary greatly - based on which server are empty, busy, your latency to each server, etc.  However, the potential pool now includes 30+ working IP addresses -  instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Further, each IP address may have several servers associated with it (ala Kyekful, Revival, 4th World, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
 
 Updates:
 -------
 
 The HSB data in this GitHub will be updated periodically as needed.
 
-Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by / who is responsible for it.
+Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by - who is effectively responsible for it.
 
-Likewise, any FoF dedicated server operator who might (for whatever reason) to have their server REMOVED from the HSB, please feel free to reach-out similarly.
+Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
 
 Optional Stuff (mostly for Server Operators):
 --------------
 
-For those that host FoF servers and you host any custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can easily be fixed by:
+For those that host FoF servers with custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can be fixed by:
 
-1) Ensuring thumbnails (in .VTF/.VMT format) exist.
+1) Ensuring thumbnails (in .VTF/.VMT format) for each custom/non-default map exit - by acquiring them or creating them yourself (beyond the scope of this guide).
 2) Placing these thumbnails in your servers fof/materials/vgui/maps folder.
-3) Ensuring these thumbnails get downloaded to connecting clients, using either  a) .RES files for each map, and/or b) SourceMod's download feature.
+3) Ensuring these thumbnails get downloaded to connecting clients, by either: a) creating .RES files for each map, and/or b) using SourceMod's download feature.
 
-For your convienence, I have included several additional resources in the GitHub:
+For FoF server operators convienence, I have included several additional resources in the GitHub:
 
 1) Thumbnails (in .VTF/.VMT format) for some common custom/non-default maps.
 2) A sample downloads_simple.ini - for those using SourceMod on their FoF server.
