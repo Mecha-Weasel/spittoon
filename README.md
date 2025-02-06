@@ -3,7 +3,7 @@ Project "Spittoon":
 
 NOTE: This is all USE AT YOUR OWN RISK!
 
-The purpose of this project, is to work-around the fact that the Fistful-of-Frags (FoF) "Hightlighted Server Browser" (HSB) feature is based on stale data.  In the past, the developer (singular) would manually update the data via a link to a URL that only he controls. This work-around modifies how the FoF client operates to use a different URL (this GitHub) as a source for HSB updates.
+Mostly, the purpose of this project is to work-around the fact that the Fistful-of-Frags (FoF) "Hightlighted Server Browser" (HSB) feature is based on stale data.  In the past, the developer (singular) would manually update the data via a link to a URL that only he controls. This work-around modifies how the FoF client operates to use a different URL (this GitHub) as a source for HSB updates.
 
 Since the developer has been away from the game for nearly two (2) years now, that HSB data (effectively a curated list of dedicated game servers) has gotten VERY stale.  At last check, the HSB data included approximately 43 server IP addresses, of which only 13 were still acitve. Also, various new servers have come online since then, and several existing ones have undergone IP address changes.
 
