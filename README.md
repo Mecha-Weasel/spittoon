@@ -59,7 +59,7 @@ Optional Stuff (mostly for Server Operators):
 
 For those that host FoF servers with custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can be fixed by:
 
-1) Ensuring thumbnails (in .VTF/.VMT format) for each custom/non-default map exists - by acquiring them or creating them yourself (beyond the scope of this guide).
+1) Ensuring thumbnails (in .VTF/.VMT format) for each custom/non-default map exists - by acquiring them or creating them yourself (beyond the scope of this guide).  If you need help getting that setup for custom map, feel free to reach-out for assistance.
 2) Placing these thumbnails in your servers fof/materials/vgui/maps folder.
 3) Ensuring these thumbnails get downloaded to connecting clients, by either: a) creating .RES files for each map, and/or b) using SourceMod's download feature.
 
