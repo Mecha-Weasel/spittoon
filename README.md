@@ -50,7 +50,7 @@ Updates:
 
 The HSB data in this GitHub will be updated periodically as needed.
 
-Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com) to get added.  Please be sure to include your SteamID, so I know who the server is operated by - who is effectively responsible for it.
+Any FoF dedicated server operator whos server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com, or on Discord) to get added.  Please be sure to include your SteamID, so I know who the server is operated by - who is effectively responsible for it.
 
 Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
 
@@ -69,4 +69,6 @@ For FoF server operators convienence, I have included several additional resourc
 2) A sample downloads_simple.ini - for those using SourceMod on their FoF server.
 3) A zip file for easy download, containing all the thumbnails in .VTF/.VMT format for use on your game-server.
 4) A zip file for easy download, containing all the thumbnails - compressed using Bzip2 for your "Fast Download" (sv_downloadurl) back-end web-server.
+
+I will also be creating an archive of custom/non-default maps for FoF in this GitHub as well as the HSB preview file.  Map authors are welcome to contact me (Weasel.SteamID.155@gMail.com, or on Discord) if they have a map they would like included (or removed if it is a map you created and no longer want distributed).
 
