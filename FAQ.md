@@ -33,7 +33,7 @@ A: Obviously, you didn't read the documention in the GitHub.  See these document
 -----------------------------
 Q: What happens if/when the developer returns to being actively engaged with FoF?
 
-A: Hopefully, all this becomes irrelevant.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for them.  Players should not be impacted in any way.
+A: Hopefully, all this becomes irrelevant.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for these updates.  Players should not be impacted in any way.
 
 [5] Windows Installer warnings?
 ------------------------------
