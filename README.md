@@ -9,8 +9,8 @@ This work-around is not a reflection upon, or judgement of the developer.  Whate
 
 Again, the goal here is not to "usurp control" of the game from the developer.  It is just to "work-around" his (prolonged) absense.
 
-Installation:
-------------
+Manual Installation:
+-------------------
 
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
