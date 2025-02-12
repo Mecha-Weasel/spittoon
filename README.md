@@ -21,7 +21,7 @@ A Windows installation program is in the works, with the following features:
 
 How to use the Windows Installer: (Coming Soon!)
 --------------------------------
-1) Close Fistful-of-Frags (FoF) is you have it open.
+1) If you have Fistful-of-Frags (FoF) open, close it.
 2) Download the installer (ProjectSpittoon-Setup.exe) from this URL:
 
 https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Setup.exe
@@ -34,20 +34,20 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Set
 
 Uninstallation: (Windows Installer)
 --------------
-1) Close Fistful-of-Frags (FoF) is you have it open.
+1) If you have Fistful-of-Frags (FoF) open, close it.
 2) Open Windows Control-Panel.
 3) Open the "Programs and Features" list.
 4) Scroll-down, to find (and select) "Project Spittoon".
 5) Select "Uninstall".
 
-NOTE: Although the "uninstall" feature will roll-back the changes (putting back official .DLL file).  It does NOT have the ability clean the cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
+NOTE: Although the "uninstall" feature will roll-back the changes (putting back official .DLL file).  It does NOT have the ability clear-out cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 
 Installation: (Manual)
 ============
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
-1) Close Fistful-of-Frags (FoF) is you have it open.
+1) If you have Fistful-of-Frags (FoF) open, close it.
 
 2) Make a backup copy of the original/official "client.dll" file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.  Just in case you "forget" to do this, there is also a backup copy in the GitHub.
 
@@ -71,13 +71,13 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 
 Uninstallation: (Manual)
 --------------
-1) Close Fistful-of-Frags (FoF) is you have it open.
+1) If you have Fistful-of-Frags (FoF) open, close it.
 2) Open your fof/bin folder.
 3) Delete the fof/bin/client.dll file.
 4) Make a copy of the client.official.dll file.
 5) Rename the copy to just client.dll.
 
-NOTE: Although this will will roll-back the changes (putting back official .DLL file).  It does NOT clear-out the cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
+NOTE: Although this will will roll-back the changes (putting back official .DLL file).  It does NOT clear-out cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 Usage:
 =====
