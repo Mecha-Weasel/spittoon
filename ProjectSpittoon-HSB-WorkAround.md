@@ -1,6 +1,8 @@
 HSB Work-Around (client-side modification):
 ==========================================
+
 This client-side modification, swaps-out the official Fistful-of-Frags (FoF) client.dll file, for a modified version.  This modified version uses the associated GitHub as its source for Highlighted-Server-Browser (HSB) data.  This HSB data is essentially a curated list of dedicated servers for FoF.  The current official HSB data source is very "stale" (meaning it has mostly old, out-of-date stuff in it).  This change allows the HSB data to be updated by the community (currently just me).
+
 There are two installation methods for this work-around:
 
 1) Using an automated Windows "Installer" application.
@@ -39,7 +41,6 @@ Uninstallation (Installer):
 5) Select "Uninstall".
 
 NOTE: Although the "uninstall" feature will roll-back the changes (putting-back the official client.dll file).  It does NOT have the ability to clear-out any cached HSB data.  So, even after you roll-back to the official client.dll file, you may still see the community-generated HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
-
 
 Installation (Manual):
 =====================
@@ -91,9 +92,3 @@ The HSB data in this GitHub will be updated periodically as needed.
 Any FoF dedicated server operator whose server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com, or on Discord) to potentially get added.  I will manually validate the server IP submissions, to ensure they are not "problematic" (as noted above).  Please be sure to include your SteamID, so I know who the server is operated by - who is effectively responsible for it.
 
 Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
-
-Contact Information ...
-Discord: weasel.steamid.155
-E-Mail: Weasel@WeaselsLair.com (AKA Weasel.SteamID.155@gMail.com)
-Steam Profile: https://steamcommunity.com/id/Weasel/
-Steam Group: https://steamcommunity.com/groups/WeaselsLair/
