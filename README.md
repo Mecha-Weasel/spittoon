@@ -1,5 +1,5 @@
 Project "Spittoon":
-------------------
+==================
 
 Mostly, the purpose of this project is to work-around the fact that the Fistful-of-Frags (FoF) "Hightlighted Server Browser" (HSB) feature is based on stale data.  In the past, the developer (singular) would manually update the HSB data via link to a web-hosted file - that only he controls. This (hopefully temporary) work-around modifies how the FoF client operates - to use a different URL (this GitHub) as a source for HSB updates.
 
@@ -9,8 +9,30 @@ This work-around is not a reflection upon, or judgement of the developer.  Whate
 
 Again, the goal here is not to "usurp control" of the game from the developer.  It is just to "work-around" his (prolonged) absense.
 
+Windows Installer (Windows ONLY):
+================================
+
+A Windows installation program is in the works, with the following features:
+* Avoids having to manually manipulate .DLL files yourself.
+* Automatically makes the .DLL file changes.
+* Add an uninstall feature to Windows Control-Panel.
+* The uninstall feature reverts to the original/official .DLL file.
+
+How to use the Windows Installer:
+--------------------------------
+
+1) Download the installer (ProjectSpittoon-Setup.exe) from this URL:
+
+https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Setup.exe
+
+2) Save the installer (ProjectSpittoon-Setup.exe)e somewhere on your computer.
+3) Wait a minute or two, to allow whatever anti-virus/anti-malware you have on your computer time to detect the new file and scan it for malware.
+4) Run (double-click) the installer (ProjectSpittoon-Setup.exe).
+5) Make sure you close the installer (ProjectSpittoon-Setup.exe) after it is finished (it might be behind other windows you have open).
+
+
 Manual Installation:
--------------------
+===================
 
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
@@ -37,14 +59,14 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 5) Click "Multiplayer" and give it a moment to refresh.
 
 Usage:
------
+=====
 
 Play the game as normal.  The HSB should show as normal, just with more servers for it to offer as potential games to join.
 
 As always, exactly which servers show-up for YOU will vary greatly - based on which servers are empty or busy, your latency to each server, etc.  However, the potential pool now includes 30+ working IP addresses -  instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Further, each IP address may have several servers associated with it (ala Kyekful, Revival, 4th World, etc.), yeilding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
 
 Updates:
--------
+=======
 
 The HSB data in this GitHub will be updated periodically as needed.
 
@@ -53,7 +75,7 @@ Any FoF dedicated server operator whose server is not already listed, is welcome
 Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
 
 Optional Stuff (mostly for server operators):
---------------
+============================================
 
 For those that host FoF servers with custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can be fixed by:
 
