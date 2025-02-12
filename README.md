@@ -6,13 +6,12 @@ Since the developer has been away from the game for nearly two (2) years now, th
 
 This project is not a reflection upon, or judgement of the developer.  Whatever may be the cause for his prolonged abasense, I wish him well.  Hopefully he is still alive, I have had no proof-of-life in a long time.  This project is just a way of dealing with the reality that FoF players currently face. 
 
-This project hosts TWO (2) related efforts, each with the own installer:
+This project hosts TWO (2) related efforts, each with its own installer:
 1) A client-side modification as a "work-around" to effectively update the HSB data.
 2) A package of HSB thumbnails for many community maps.
 
 HSB Work-Around:
 ===============
-
 The HSB work-around effectively re-directs the FoF game client to use this GitHub as its source for updated HSB data - instead of using the state HSB data posted in the old official system.  
 
 Ideally, this is an entirely temporary solution.  Should the developer come back to actively maintaining FoF, this work-around will obviously become irrelevant, as he can just update the HSB with similar content through the original URL (hopefully making use of the curation work I have done here), and push-out an FoF update through Steam that will roll-back / over-write this customization entirely.  That would, of course, entirely negate the NEED for this work-around (assuming he will be able to stay engaged with the game).
@@ -24,7 +23,6 @@ https://github.com/Mecha-Weasel/spittoon/blob/main/ProjectSpittoon-HSB-WorkAroun
 
 HSB Thumbnails:
 ==============
-
 The HSB thumbnail update adds preview thumbnails for the many community-developed maps to your FoF installation.
 
 For details of the HSB thumbnails update, see the related ReadME file (ProjectSpittoon-HSB-Thumbnails.md):
