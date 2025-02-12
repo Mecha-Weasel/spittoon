@@ -37,7 +37,7 @@ Uninstallation (Installer):
 1) If you have Fistful-of-Frags (FoF) open, close it.
 2) Open Windows Control-Panel.
 3) Open the "Programs and Features" list.
-4) Scroll-down, to find (and select) "Project Spittoon".
+4) Scroll-down, to find (and select) "Project Spittoon: HSB Work-Around".
 5) Select "Uninstall".
 
 NOTE: Although the "uninstall" feature will roll-back the changes (putting-back the official client.dll file).  It does NOT have the ability to clear-out any cached HSB data.  So, even after you roll-back to the official client.dll file, you may still see the community-generated HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
