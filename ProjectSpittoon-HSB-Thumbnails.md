@@ -44,7 +44,7 @@ Uninstallation (Installer):
 Installation (Manual):
 =====================
 
-NOTE: Although these instructions are specifically for Windows, equivalent actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
+NOTE: Although these instructions are specifically for Windows, equivalent actions should work under Linux.
 
 1) If you have Fistful-of-Frags (FoF) open, close it.
 
