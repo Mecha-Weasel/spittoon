@@ -12,6 +12,8 @@ Again, the goal here is not to "usurp control" of the game from the developer.  
 Windows Installer (Windows ONLY):
 ================================
 
+NOTE: The Windows Installer is NOT yet available, Coming Soon!
+
 A Windows installation program is in the works, with the following features:
 * Avoids having to manually manipulate .DLL files yourself.
 * Automatically makes the .DLL file changes.
