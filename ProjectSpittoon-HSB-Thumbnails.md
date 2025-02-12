@@ -1,7 +1,7 @@
 HSB Thumbnails:
 ==============
 
-The Highlighted-Server-Browser (HSB) feature of Fistful-of-Frags (FoF) can make use of special files to display a thumbnail-sized preview of which map each server listed in the HSB is currently hosting.  Unfortunately, as with the HSB data itself, the stock FoF installation does not include thumbnails for many of the custom maps created by the community since the games last official update.  This modification installs thumbnails for many community maps.
+The Highlighted-Server-Browser (HSB) feature of Fistful-of-Frags (FoF) can make use of special files to display a thumbnail-sized preview of whichever map each server listed in the HSB is currently hosting.  Unfortunately, as with the HSB data itself, the stock FoF installation does not include thumbnails for many of the custom maps created by the community since the games last official update.  This modification installs thumbnails for many community maps.
 
 
 There are two installation methods for this update:
