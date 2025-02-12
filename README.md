@@ -30,3 +30,7 @@ The HSB thumbnail update adds preview thumbnails for the many community-develope
 For details of the HSB thumbnails update, see the related ReadME file (ProjectSpittoon-HSB-Thumbnails.md):
 https://github.com/Mecha-Weasel/spittoon/blob/main/ProjectSpittoon-HSB-Thumbnails.md
 
+Frequently Asked Questions (FAQ):
+================================
+The FAQ is available here ...
+https://github.com/Mecha-Weasel/spittoon/blob/main/FAQ.md
