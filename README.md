@@ -69,8 +69,8 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 
 5) Click "Multiplayer" and give it a moment to refresh.
 
-Uninstallation (Manua):
-----------------------
+Uninstallation (Manual):
+-----------------------
 1) Close Fistful-of-Frags (FoF) is you have it open.
 2) Open your fof/bin folder.
 3) Delete the fof/bin/client.dll file.
