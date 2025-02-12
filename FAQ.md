@@ -37,7 +37,7 @@ A: Hopefully, all this becomes irrelevant.  Nothing done with these updates shou
 
 [5] Windows Installer warnings?
 ------------------------------
-Q: When I run either of the "Installer" programs, Windows shows are warning about it being an "Unrecognized Program", what is up with that?
+Q: When I run either of the "Installer" programs, Windows shows a warning about it being an "Unrecognized Program", what is up with that?
 
 A: That is because the progam(s) are not "code-signed", which is common for paid-companies producing commercial software, but out of the scope for free things like this.
 
