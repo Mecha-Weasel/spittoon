@@ -17,7 +17,7 @@ NOTE: The Windows Installer is NOT yet available, Coming Soon!
 A Windows installation program is in the works, with the following features:
 * Avoids having to manually manipulate .DLL files yourself.
 * Automatically makes the .DLL file changes.
-* Add an uninstall feature to Windows Control-Panel.
+* Adds an "uninstall" feature to the Windows Control-Panel.
 * The uninstall feature reverts to the original/official .DLL file.
 
 How to use the Windows Installer:
