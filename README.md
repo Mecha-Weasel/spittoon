@@ -6,7 +6,7 @@ Since the developer has been away from the game for nearly two (2) years now, th
 
 This project is not a reflection upon, or judgement of the developer.  Whatever may be the cause for his prolonged abasense, I wish him well.  Hopefully he is still alive, I have had no proof-of-life in a long time.  This project is just a way of dealing with the reality that FoF players currently face. 
 
-This project hosts two related efforts:
+This project hosts TWO (2) related efforts, each with the own installer:
 1) A client-side modification as a "work-around" to effectively update the HSB data.
 2) A package of HSB thumbnails for many community maps.
 
