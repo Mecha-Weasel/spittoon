@@ -1,6 +1,6 @@
 Project "Spittoon":
 ==================
-Mostly, the purpose of this project is to work-around the fact that the Fistful-of-Frags (FoF) "Hightlighted Server Browser" (HSB) feature is based on stale data.  In the past, the developer (singular) would manually update the HSB data via link to a web-hosted file - that only he controls. This (hopefully temporary) work-around modifies how the FoF client operates - to use a different URL (this GitHub) as a source for HSB updates.
+Mostly, the purpose of this project is to work-around the fact that the Fistful-of-Frags (FoF) "Hightlighted Server Browser" (HSB) feature is currently populated with stale data.  In the past, the developer (singular) would manually update the HSB data - via link to a web-hosted file, that only he controls. This (hopefully temporary) work-around modifies how the FoF game client operates - to use a different URL (this GitHub) as the source for HSB updates.
 
 Since the developer has been away from the game for nearly two (2) years now, the current official HSB data (effectively a curated list of dedicated game servers) has gotten VERY stale.  At last check, the HSB data included approximately 43 server IP addresses, of which only 13 were still acitve. Also, various new servers have come online since then, and several existing ones have undergone IP address changes.
 
@@ -19,7 +19,7 @@ A Windows installation program is in the works, with the following features:
 * Adds an "uninstall" feature to the Windows Control-Panel.
 * The uninstall feature reverts to the original/official .DLL file.
 
-How to use the Windows Installer:
+How to use the Windows Installer: (Coming Soon!)
 --------------------------------
 1) Close Fistful-of-Frags (FoF) is you have it open.
 2) Download the installer (ProjectSpittoon-Setup.exe) from this URL:
@@ -32,8 +32,8 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Set
 6) Make sure the path to your existing Fistful of Frags (FoF) is correct - the default will work for most people (unless you installed FoF to a alternative location).
 7) Make sure you close the installer (ProjectSpittoon-Setup.exe) after it is finished (it might be behind other windows you have open).
 
-Uninstallation (Windows Installer):
----------------------------------
+Uninstallation: (Windows Installer)
+--------------
 1) Close Fistful-of-Frags (FoF) is you have it open.
 2) Open Windows Control-Panel.
 3) Open the "Programs and Features" list.
@@ -43,8 +43,8 @@ Uninstallation (Windows Installer):
 NOTE: Although the "uninstall" feature will roll-back the changes (putting back official .DLL file).  It does NOT have the ability clean the cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 
-Installation (Manual):
-=====================
+Installation: (Manual)
+============
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
 1) Close Fistful-of-Frags (FoF) is you have it open.
@@ -69,8 +69,8 @@ NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for
 
 5) Click "Multiplayer" and give it a moment to refresh.
 
-Uninstallation (Manual):
------------------------
+Uninstallation: (Manual)
+--------------
 1) Close Fistful-of-Frags (FoF) is you have it open.
 2) Open your fof/bin folder.
 3) Delete the fof/bin/client.dll file.
@@ -93,8 +93,8 @@ Any FoF dedicated server operator whose server is not already listed, is welcome
 
 Likewise, any FoF dedicated server operator who might (for whatever reason) like to have their server REMOVED from this community HSB list, please feel free to reach-out similarly.
 
-Optional Stuff (mostly for server operators):
-============================================
+Optional Stuff: (mostly for server operators)
+==============
 For those that host FoF servers with custom/non-default maps, you may have noticed that if/when your server shows in the HSB - it shows the default generic "Custom Map" image instead of an actual preview thumbnail of the custom map.  This can be fixed by:
 
 1) Ensuring thumbnails (in .VTF/.VMT format) for each custom/non-default map exists - by acquiring them or creating them yourself (beyond the scope of this guide). 
@@ -107,4 +107,4 @@ As a convenience for server operators, I have also provided in the GitHub:
 
 If you need help getting HSB preview thumbnails setup for a custom map that is not already included, feel free to reach-out for assistance.
 
-Unfortunately, due to GitHub's limitations on uploades (<25-MB) I can not upload an archive of various custom/non-default maps themselves here.
+Unfortunately, due to GitHub's limitations on uploads (<25-MB), I can not upload an archive of various custom/non-default maps themselves here.
