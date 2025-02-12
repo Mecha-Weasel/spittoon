@@ -29,7 +29,7 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-HSB
 3) Save the installer (ProjectSpittoon-HSB-WorkAround.exe) somewhere on your computer.
 4) Wait a minute or two, to allow whatever anti-virus/anti-malware you have on your computer time to detect the new file and scan it for malware.
 5) Run (double-click) the installer (ProjectSpittoon-HSB-WorkAround.exe).
-6) Windows may display a warning about the installer being an "Uncognized Program".  This does NOT mean its a virus, trojan or other type of malware.  Effectively, this means the program is not made by Microsoft or some company with the expertise with and/or budget for "code-signing".  If it was truly malware, the message would be different - not just "Unrecognized".  You can click "Run Anyway".  Alternatively, see the manual installation instructions below.
+6) Windows may display a warning about the installer being an "UNRECOGNIZED Program".  This does NOT mean its a virus, trojan or other type of malware.  Effectively, this means the program is not made by Microsoft or some company with the expertise with and/or budget for "code-signing".  If it was truly malware, the message would be different - not just "UNRECOGNIZED".  You can click "Run Anyway".  Alternatively, see the manual installation instructions below.
 7) Ensure the path to your existing Fistful of Frags (FoF) is correct - the default will work for most people. Adjust it as needed, if you installed FoF to an alternative location.
 
 Uninstallation (Installer):
