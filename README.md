@@ -103,8 +103,9 @@ For those that host FoF servers with custom/non-default maps, you may have notic
 
 As a convenience for server operators, I have also provided in the GitHub:
 1) An archive (.ZIP file) of HSB preview thumbnails for many common custom maps (in .VTF/.VMT format) for use on your game-server.
-2) An archive (.ZIP file) of HSB preview thumbnails for many common custom maps (compressed with BZip2) for use on your back-end web-server (if you are using sv_downloadurl, etc.).
-
+  https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-GameServer.zip
+3) An archive (.ZIP file) of HSB preview thumbnails for many common custom maps (compressed with BZip2) for use on your back-end web-server (if you are using sv_downloadurl, etc.).
+  https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-WebServer.zip
 If you need help getting HSB preview thumbnails setup for a custom map that is not already included, feel free to reach-out for assistance.
 
 Unfortunately, due to GitHub's limitations on uploads (<25-MB), I can not upload an archive of various custom/non-default maps themselves here.
