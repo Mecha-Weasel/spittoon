@@ -30,7 +30,8 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Set
 2) Save the installer (ProjectSpittoon-Setup.exe)e somewhere on your computer.
 3) Wait a minute or two, to allow whatever anti-virus/anti-malware you have on your computer time to detect the new file and scan it for malware.
 4) Run (double-click) the installer (ProjectSpittoon-Setup.exe).
-5) Make sure you close the installer (ProjectSpittoon-Setup.exe) after it is finished (it might be behind other windows you have open).
+5) Make sure the path to your existing Fistful of Frags (FoF) is correct (the default will work for most people - unless you installed FoF to a custom location).
+6) Make sure you close the installer (ProjectSpittoon-Setup.exe) after it is finished (it might be behind other windows you have open).
 
 
 Manual Installation:
