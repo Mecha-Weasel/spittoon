@@ -10,6 +10,8 @@ This project hosts TWO (2) related efforts, each with its own installer:
 1) A client-side modification as a "work-around" to effectively update the HSB data.
 2) A package of HSB thumbnails for many community maps.
 
+NOTE: Windows may display a warning about the installer(s) being an "UNRECOGNIZED Program". This does NOT mean its a virus, trojan or other type of malware. Effectively, this means the program is not made by Microsoft or some company with the expertise with and/or budget for "code-signing". If it was truly malware, the message would be different - not just "UNRECOGNIZED". You can click "Run Anyway". Nothing I can do about this. Alternatively, see the manual installation instructions that are included in the documentation.
+
 HSB Work-Around:
 ===============
 The HSB work-around effectively re-directs the FoF game client to use this GitHub as its source for updated HSB data - instead of using the state HSB data posted in the old official system.  
