@@ -9,7 +9,7 @@ This work-around is not a reflection upon, or judgement of the developer.  Whate
 
 Again, the goal here is not to "usurp control" of the game from the developer.  It is just to "work-around" his (prolonged) absense.
 
-Windows Installer (Windows ONLY):
+Installation (Windows Installer):
 ================================
 
 NOTE: The Windows Installer is NOT yet available, Coming Soon!
@@ -34,8 +34,8 @@ https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/ProjectSpittoon-Set
 6) Make sure you close the installer (ProjectSpittoon-Setup.exe) after it is finished (it might be behind other windows you have open).
 
 
-Manual Installation:
-===================
+Installation (Manual):
+=====================
 
 NOTE: Although these instructions are specifically for Windows, equivelant actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
