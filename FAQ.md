@@ -29,19 +29,25 @@ A: Obviously, you didn't read the documention in the GitHub.  See these document
 2) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
 3) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
-[4] If/when developer returns?
+[4] Benefits to NOT using?
+
+Q: If there any benefit to NOT using the updates?
+
+A: I guess, if you like to live the current near-abondonware state of Fistful of Frags, that's your decision.  However, over time you will probably see less-and-less servers available to play-on (as old servers shut-down or change IP addresses), and more importantly will not see the wide range of new servers that are already added, or any that maybe be added in the future.  It is of course, your decision.
+
+[5] If/when developer returns?
 -----------------------------
 Q: What happens if/when the developer returns to being actively engaged with FoF?
 
 A: Hopefully, all this becomes irrelevant.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for these updates.  Players should not be impacted in any way.
 
-[5] Windows Installer warnings?
+[6] Windows Installer warnings?
 ------------------------------
 Q: When I run either of the "Installer" programs, Windows shows a warning about it being an "Unrecognized Program", what is up with that?
 
 A: That is because the progam(s) are not "code-signed", which is common for paid-companies producing commercial software, but out of the scope for free things like this.
 
-[6] Possible to manually install instead?
+[7] Possible to manually install instead?
 ----------------------------------------
 Q: I do not trust the Windows "Installer" programs.  Can I install the content manually instead?
 
@@ -49,13 +55,13 @@ A: Absolutely.  The "Installer" programs are just a convenience.  The instructio
 1) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
 2) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
-[7] Maps don't already include HSB thumbnails?
+[8] Maps don't already include HSB thumbnails?
 ---------------------------------------------
 Q: Why don't the maps already include HSB preview thumbnails for them?
 
 A: Many maps actually pre-date the existance of the entire HSB feature, and many map authors are not aware of how it operates.
 
-[8] Who DF are you?
+[9] Who DF are you?
 ------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
