@@ -77,4 +77,5 @@ Open and play FoF as normal.  The server list should show as normal.  However, 
 Updates:
 =======
 
-The server list thumbnail archive in this GitHub will be updated periodically as needed.
+The server list thumbnail archive in this GitHub will be updated periodically as needed.  To get the latest thumbnails, FoF players may need to download an updated version of this update periodically.  Although, some server operators may also have their servers automatically download updated thumbnails are players join there servers - largely negating the need to keep checking for thumbnail updates.
+
