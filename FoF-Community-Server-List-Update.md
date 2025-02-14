@@ -1,7 +1,7 @@
 Community Server List Update (HSB Work-Around) for Fistful of Frags (FoF):
 =========================================================================
 
-This client-side modification, swaps-out the official Fistful-of-Frags (FoF) client.dll file, for a modified version.  This modified version uses the associated GitHub as its source for Highlighted-Server-Browser (HSB) data.  This HSB data is essentially a curated list of dedicated servers for FoF.  The current official HSB data source is very "stale" (meaning it has mostly old, out-of-date stuff in it).  This change allows the HSB data to be updated by the community (currently just me).
+This client-side modification, swaps-out an official Fistful-of-Frags (FoF) library file, for a modified version.  This modified version uses the associated GitHub as its source for the server-list - sometimes referred to as the "Highlighted-Server-Browser" (HSB) feature.  This server list data is essentially a curated list of dedicated servers for FoF.  The current official server list data source is very "stale" (meaning it has mostly old, out-of-date stuff in it).  This change allows the server list data to be updated by the community (currently just me).
 
 There are two installation methods for this work-around:
 
@@ -11,7 +11,7 @@ There are two installation methods for this work-around:
 Windows Installer:
 =================
 
-The Windows Installer program for the Community Server List Update (aka HSB Work-Around):
+The Windows Installer program features:
 
 * Avoids having to manually manipulate .DLL files yourself.
 * Automatically makes the .DLL file changes.
@@ -42,7 +42,7 @@ Uninstallation (Installer):
 4) Scroll-down, to find (and select) "FoF Community Server List Update".
 5) Select "Uninstall".
 
-NOTE: Although the "uninstall" feature will roll-back the changes (putting-back the official client.dll file).  It does NOT have the ability to clear-out any cached HSB data.  So, even after you roll-back to the official client.dll file, you may still see the community-generated HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
+NOTE: Although the "uninstall" feature will roll-back the changes (putting-back the official client.dll file).  It does NOT have the ability to clear-out any cached HSB data.  So, even after you roll-back to the official client.dll file, you may still see the community-generated server list.  I have not found any way to clear that cached server list information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 Installation (Manual):
 =====================
@@ -77,17 +77,17 @@ Uninstallation (Manual):
 4) Make a copy of the client.official.dll file.
 5) Rename the copy to just client.dll.
 
-NOTE: Although this will roll-back the changes (putting back official .DLL file).  It does NOT clear-out cached HSB data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) HSB list.  I have not found any way to clear that cached HSB information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
+NOTE: Although this will roll-back the changes (putting back official .DLL file).  It does NOT clear-out cached server list data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) server list.  I have not found any way to clear that cached server list information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 Usage:
 =====
-Play the game as normal.  The server list, sometimes referred to as the "Highlighted Server Browser" (HSB), should show as normal - but now selecting from a larger pool of servers.
+Play the game as normal.  The server list should show as normal - but now selecting from a larger pool of servers.
 
 As always, exactly which servers show-up for YOU will vary greatly - based on which servers are empty or busy, your latency to each server, etc.  However, the potential pool now includes 30+ working IP addresses -  instead of just 13.  Each server IP included in the updated HSB data has been curated to remove any "problematic" servers, such as those that push fake data into the Steam server list, implement proxies or re-directs, or "fake players" by making bots seem like they are real players.  Further, each IP address may have several servers associated with it (ala Kyekful, Revival, 4th World, etc.), yielding several dozen potential FoF game-servers for the HSB to choose from - including servers in a variety of regions (Europe, North America, South America, Asia, etc.).
 
 Updates:
 =======
-The HSB data in this GitHub will be updated periodically as needed.
+The server list data in this GitHub will be updated periodically as needed.  As those updated are published to the GitHub, FoF clients should automatically download and utilize the updated server-list.
 
 Any FoF dedicated server operator whose server is not already listed, is welcome to contact me (Weasel.SteamID.155@gMail.com, or on Discord) to potentially get added.  I will manually validate the server IP submissions, to ensure they are not "problematic" (as noted above).  Please be sure to include your SteamID, so I know who the server is operated by - who is effectively responsible for it.
 
