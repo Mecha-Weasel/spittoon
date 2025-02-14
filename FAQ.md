@@ -30,6 +30,7 @@ A: Obviously, you didn't read the documention in the GitHub.  See these document
 3) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
 [4] Benefits to NOT using?
+-------------------------
 
 Q: If there any benefit to NOT using the updates?
 
