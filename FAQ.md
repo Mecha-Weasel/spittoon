@@ -34,7 +34,7 @@ A: Obviously, you didn't read the documention in the GitHub.  See these document
 
 Q: If there any benefit to NOT using the updates?
 
-A: I guess, if you like to live the current near-abondonware state of Fistful of Frags, that's your decision.  However, over time you will probably see less-and-less servers available to play-on (as old servers shut-down or change IP addresses), and more importantly will not see the wide range of new servers that are already added, or any that maybe be added in the future.  It is of course, your decision.
+A: I guess, if you like to live the current near-abondonware state of Fistful of Frags, that's your decision.  However, over time you will probably see less-and-less servers available to play-on (as old servers shut-down or change IP addresses), and more importantly will not see the wide range of new servers that are already added, or any that might be be added in the future.  It is of course, your decision.
 
 [5] If/when developer returns?
 -----------------------------
