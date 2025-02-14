@@ -4,7 +4,7 @@ Mostly, the purpose of this project is to work-around the fact that the Fistful-
 
 Since the developer has been away from the game for nearly two (2) years now, the current official server list data (effectively a very curated list of dedicated game servers) has gotten VERY stale.  At last check, the server data data included approximately 43 server IP addresses, of which only 13 were still acitve. Also, various new servers have come online since then, and several existing ones have undergone IP address changes.
 
-This project is not a reflection upon, or judgement of the developer.  Whatever may be the cause for his prolonged abasense, I wish him well.  Hopefully he is still alive, I have had no proof-of-life in a long time.  This project is just a way of dealing with the reality that FoF players currently face. 
+This project is not a reflection upon, or judgement of the developer.  Whatever may be the cause for his prolonged abasense, I wish him well.  Hopefully he is still alive, I have had no proof-of-life in a long time.  This project is just a way of dealing with the reality that FoF players currently face.  Hopefully, preventing it from effectively becoming "abandon-ware".
 
 This project hosts TWO (2) related efforts, each with its own installer:
 1) A client-side modification as a "work-around" to effectively update the server list data.
