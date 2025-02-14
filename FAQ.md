@@ -46,8 +46,8 @@ A: That is because the progam(s) are not "code-signed", which is common for paid
 Q: I do not trust the Windows "Installer" programs.  Can I install the content manually instead?
 
 A: Absolutely.  The "Installer" programs are just a convenience.  The instructions for each are included in their documentation in the GitHub, specifically:
-1) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/ProjectSpittoon-HSB-WorkAround.md
-2) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/ProjectSpittoon-HSB-Thumbnails.md
+1) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
+2) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
 [7] Maps don't already include HSB thumbnails?
 ---------------------------------------------
