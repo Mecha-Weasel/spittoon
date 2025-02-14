@@ -25,7 +25,7 @@ https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Upd
 
 FoF Community Map Thumbnails Update (aka HSB Thumbnails):
 ========================================================
-The HSB thumbnail update adds preview thumbnails for the many community-developed maps to your FoF installation.
+The map thumbnails update adds preview thumbnails for the many community-developed maps to your FoF installation.
 
 For more details of the FoF Community Map Thumbnails Update, see the related ReadME file (FoF-Community-Map-Thumbnails-Update.md):
 https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
