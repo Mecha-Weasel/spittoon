@@ -1,7 +1,7 @@
 Community Map Thumbnails Update (HSB Thumbnails) for Fistful of Frags (FoF):
 ===========================================================================
 
-The Highlighted-Server-Browser (HSB) feature of Fistful-of-Frags (FoF) can make use of special files to display a thumbnail-sized preview of whichever map each server listed in the HSB is currently hosting.  Unfortunately, as with the HSB data itself, the stock FoF installation does not include thumbnails for many of the custom maps created by the community since the games last official update.  This modification installs thumbnails for many community maps.
+The server list, sometimes referred to as the "Highlighted Server Browser" (HSB) feature of Fistful-of-Frags (FoF) can make use of special files to display a thumbnail-sized preview of whichever map each server listed in the HSB is currently hosting.  Unfortunately, as with the server list itself, the stock FoF installation does not include thumbnails for many of the custom maps created by the community since the games last official update.  This modification installs thumbnails for many community maps.
 
 There are two installation methods for this update:
 
@@ -11,7 +11,7 @@ There are two installation methods for this update:
 Windows Installer:
 =================
 
-The Windows Installer program for the Community Map Thumbnails Update:
+Features of the Windows Installer program:
 
 * Avoids having to manually download and install the thumbnail files yourself.
 * Automatically puts the required files into the required location.
@@ -72,9 +72,9 @@ Uninstallation (Manual):
 Usage:
 =====
 
-Play the game as normal.  The server list, sometimes referred to as the "Highlighted Server Browser" (HSB), should show as normal.  However, in place of the generic "Custom Map" thumbnail, an actual thumbnail for each map should be displayed.  If you see a generic "Custom Map" thumbnail in the server list, that is because we have not (yet) created and published a thumbnail for it.
+Open and play FoF as normal.  The server list should show as normal.  However, in place of the generic "Custom Map" thumbnail, an actual thumbnail for each map should be displayed.  If you see a generic "Custom Map" thumbnail in the server list, that is because we have not (yet) created and published a thumbnail for it.
 
 Updates:
 =======
 
-The HSB thumbnail archive in this GitHub will be updated periodically as needed.
+The server list thumbnail archive in this GitHub will be updated periodically as needed.
