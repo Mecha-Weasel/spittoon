@@ -1,5 +1,5 @@
 //
-//	Updated 2024-02-14 by Weasel (Weasel.SteamID.155@gMail.com)
+//	Updated 2024-02-14b by Weasel (Weasel.SteamID.155@gMail.com)
 //
 //	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
@@ -93,6 +93,6 @@
 		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
 		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
-		"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "0" "mode" "3" }
+		//"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "0" "mode" "3" }
 	}
 }
