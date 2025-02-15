@@ -86,13 +86,15 @@
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
 		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
 		"0" { "name" "Lenclos des betes (DE)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
 		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
 		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
 		"0" { "name" "Power Games (BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
 		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
-		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
 		"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "0" "mode" "3" }
+		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
+
 	}
 }
