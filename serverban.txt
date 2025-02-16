@@ -1,5 +1,5 @@
 //
-//	Updated 2024-02-15b by Weasel (Weasel.SteamID.155@gMail.com)
+//	Updated 2024-02-16a by Weasel (Weasel.SteamID.155@gMail.com)
 //
 //	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
@@ -55,13 +55,13 @@
 		//	{
 		//		"name"	"[WL/S³]"
 		//		"ip"	"162.248.88.40"
-		//		"port" "0"
+		//		"port" "6331"	//	Use "0" for all servers on all ports of the same IP address.
 		//		"mode"	"3"
 		//	}
 		//
 		//	Same example, in condensed (Excel-generatable) format:
 		//
-		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "0" "mode" "3" }
+		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "6331" "mode" "3" }
 		//
 		"0" { "name" "Globe (PH)" "ip" "1.37.65.74" "port" "0" "mode" "3" }
 		"0" { "name" "Globe (PH)" "ip" "1.37.42.226" "port" "0" "mode" "3" }
@@ -83,7 +83,9 @@
 		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "0" "mode" "3" }
 		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "0" "mode" "3" }
 		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "0" "mode" "3" }
-		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "0" "mode" "3" }
+		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6331" "mode" "3" }
+		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6333" "mode" "3" }
+		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6335" "mode" "3" }
 		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
