@@ -113,8 +113,8 @@
 		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "27015" "mode" "3" }
 		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "27015" "mode" "3" }
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6331" "mode" "3" }
-		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6333" "mode" "3" }
-		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6335" "mode" "3" }
+		//"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6333" "mode" "3" }
+		//"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6335" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27015" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27018" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26100" "mode" "3" }
