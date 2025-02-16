@@ -116,55 +116,14 @@
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27015" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27018" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26100" "mode" "3" }
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26050"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26053"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26056"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26059"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26062"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26065"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26068"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Phporyx (UK)"" ""ip"" ""185.132.42.12"" ""port"" ""26071"" ""mode"" ""3"" }"
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26074" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26077" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28001" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28002" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28003" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28004" "mode" "3" }
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28005"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28006"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28007"" ""mode"" ""3"" }"
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28008" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28009" "mode" "3" }
 		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28010" "mode" "3" }
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28011"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28012"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28013"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28014"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28015"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28016"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28017"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28018"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28019"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28020"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28021"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28022"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28023"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28024"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28025"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28026"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28027"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28028"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28029"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28030"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28031"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28032"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28033"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28034"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28035"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28036"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28037"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28038"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28039"" ""mode"" ""3"" }"
-		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28040"" ""mode"" ""3"" }"
 	}
 }
