@@ -63,40 +63,110 @@
 		//
 		//		"0" { "name" "[WL/S³]" "ip""162.248.88.40" "port" "6331" "mode" "3" }
 		//
-		"0" { "name" "Globe (PH)" "ip" "1.37.65.74" "port" "0" "mode" "3" }
-		"0" { "name" "Globe (PH)" "ip" "1.37.42.226" "port" "0" "mode" "3" }
-		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "0" "mode" "3" }
-		"0" { "name" "4th World (CN)" "ip" "1.116.19.197" "port" "0" "mode" "3" }
-		"0" { "name" "4th World (CN)" "ip" "47.110.160.102" "port" "0" "mode" "3" }
-		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "0" "mode" "3" }
-		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.236" "port" "0" "mode" "3" }
-		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.237" "port" "0" "mode" "3" }
-		"0" { "name" "Dr. No (US)" "ip" "74.91.123.66" "port" "0" "mode" "3" }
-		"0" { "name" "Zephyr (CZ)" "ip" "78.80.33.198" "port" "0" "mode" "3" }
-		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "0" "mode" "3" }
-		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "0" "mode" "3" }
-		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
-		"0" { "name" "Fox Full of Frags (DE)" "ip" "91.2.122.75" "port" "0" "mode" "3" }
-		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
-		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "0" "mode" "3" }
-		"0" { "name" "Globe (PH)" "ip" "120.28.6.146" "port" "0" "mode" "3" }
-		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "0" "mode" "3" }
-		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "0" "mode" "3" }
-		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "0" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "1.37.65.74" "port" "27017" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "1.37.42.226" "port" "27017" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27015" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27016" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27017" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27018" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27019" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27025" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27030" "mode" "3" }
+		"0" { "name" "Kyekful (US)" "ip" "64.52.108.128" "port" "27040" "mode" "3" }
+		"0" { "name" "Dr. No (US)" "ip" "74.91.123.66" "port" "27015" "mode" "3" }
+		"0" { "name" "FLWN.dev (CZ)" "ip" "78.80.33.198" "port" "25526" "mode" "3" }
+		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "27016" "mode" "3" }
+		"0" { "name" "NullVoid (ZA)" "ip" "102.66.194.230" "port" "17223" "mode" "3" }
+		"0" { "name" "Lemons (AU)" "ip" "123.51.39.110" "port" "27015" "mode" "3" }
+		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "27015" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "27000" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "27001" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "27002" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "27004" "mode" "3" }
+		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "27016" "mode" "3" }
+		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "27035" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "27015" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "27016" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "27017" "mode" "3" }
+		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "27019" "mode" "3" }
+		"0" { "name" "Paradise (FR)" "ip" "193.70.22.151" "port" "27045" "mode" "3" }
+		"0" { "name" "Power Games (BE)" "ip" "195.160.166.201" "port" "27019" "mode" "3" }
+		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "27015" "mode" "3" }
+		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "27050" "mode" "3" }
+		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "27051" "mode" "3" }
+		"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "27015" "mode" "3" }
+		"0" { "name" "Dynamite (JP)" "ip" "106.53.103.49" "port" "27021" "mode" "3" }
+		"0" { "name" "Dynamite (JP)" "ip" "106.53.103.49" "port" "27015" "mode" "3" }
+		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "27015" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "1.116.19.197" "port" "27016" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "47.110.160.102" "port" "27015" "mode" "3" }
+		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.236" "port" "27016" "mode" "3" }
+		"0" { "name" "[ACG] (CA)" "ip" "66.212.232.237" "port" "27115" "mode" "3" }
+		"0" { "name" "Casual (ZA)" "ip" "79.143.181.215" "port" "27115" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "27015" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "27016" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "27017" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "27018" "mode" "3" }
+		"0" { "name" "4th World (CN)" "ip" "81.69.43.95" "port" "27035" "mode" "3" }
+		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "27015" "mode" "3" }
+		"0" { "name" "Globe (PH)" "ip" "120.28.6.146" "port" "27017" "mode" "3" }
+		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "27015" "mode" "3" }
+		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "27015" "mode" "3" }
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6331" "mode" "3" }
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6333" "mode" "3" }
 		"0" { "name" "[WL/S³] (US)" "ip" "162.248.88.40" "port" "6335" "mode" "3" }
-		"0" { "name" "MNS (US)" "ip" "172.75.41.11" "port" "0" "mode" "3" }
-		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
-		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
-		"0" { "name" "Lenclos des betes (DE)" "ip" "185.255.121.25" "port" "0" "mode" "3" }
-		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
-		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
-		"0" { "name" "Power Games (BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
-		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
-		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
-		"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "0" "mode" "3" }
-		"0" { "name" "Dynamite (JP)" "ip" "106.53.103.49" "port" "0" "mode" "3" }
-		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27015" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "27018" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26100" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26050" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26053" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26056" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26059" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26062" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26065" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26068" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26071" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26074" "mode" "3" }
+		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "26077" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28001" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28002" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28003" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28004" "mode" "3" }
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28005"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28006"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28007"" ""mode"" ""3"" }"
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28008" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28009" "mode" "3" }
+		"0" { "name" "Revival Ranch (DE)" "ip" "78.31.71.56" "port" "28010" "mode" "3" }
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28011"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28012"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28013"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28014"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28015"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28016"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28017"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28018"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28019"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28020"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28021"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28022"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28023"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28024"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28025"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28026"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28027"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28028"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28029"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28030"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28031"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28032"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28033"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28034"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28035"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28036"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28037"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28038"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28039"" ""mode"" ""3"" }"
+		"//	""0"" { ""name"" ""Revival Ranch (DE)"" ""ip"" ""78.31.71.56"" ""port"" ""28040"" ""mode"" ""3"" }"
 	}
 }
