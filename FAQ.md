@@ -21,7 +21,7 @@ Glossary:
 --------------------
 Q: Can I continue to play FoF without installing either of these "Spittoon" updates?
 
-A: Absolutely.  These are totally optional.  However, you will just have a more LIMITED experience, specifically:
+A: ABSOLUTELY.  These are totally optional.  However, you will just have a more LIMITED experience, specifically:
 1) Way less servers displayed in the HSB - possibly meaning servers in your region do not get shown at all.
 2) Generic "Custom Map" icons shown more often for map that were not part of the last FoF game-update.
 
@@ -29,7 +29,7 @@ A: Absolutely.  These are totally optional.  However, you will just have a more 
 --------------------------------
 Q: If I load these updates (or do not load these updates) will either cause me problems playing with other who do or do not load them?
 
-A: No.  You and your friends may still play together on the same servers, etc.  However, depending on whether or not you both load them, you may not both see the same list of servers available - instead only seeing a smaller sub-set.
+A: NO.  You and your friends may still play together on the same servers, etc.  However, depending on whether or not you both load them, you may not both see the same list of servers available - instead only seeing a smaller sub-set.
 
 [3] Benefits to using?
 ---------------------
@@ -51,7 +51,7 @@ A: I guess, if you like to live the current near-abondonware state of Fistful of
 -----------------------------
 Q: What happens if/when the developer returns to being actively engaged with FoF?
 
-A: Hopefully, all this becomes irrelevant.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for these updates.  Players should not be impacted in any way.
+A: Hopefully, all this becomes IRRELEVANT.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for these updates.  Players should not be impacted in any way.
 
 [6] Windows Installer warnings?
 ------------------------------
@@ -63,7 +63,7 @@ A: That is because the progam(s) are not "code-signed", which is common for paid
 ----------------------------------------
 Q: I do not trust the Windows "Installer" programs.  Can I install the content manually instead?
 
-A: Absolutely.  The "Installer" programs are just a convenience.  The instructions for each are included in their documentation in the GitHub, specifically:
+A: ABSOLUTELY.  The "Installer" programs are just a convenience.  The instructions for each are included in their documentation in the GitHub, specifically:
 1) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
 2) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
@@ -86,5 +86,5 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 ------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
-A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".  At this point, people are either going to use the update (using the installer or manually) or not.  I am largely done with my efforts.  I'll be delegating access to the repository for another community member or two to be able to keep the list updated.
- 
+A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".  At this point, people are either going to use the update (using the installer or manually) or not.  I am largely done with my efforts.  I will be delegating access to the repository for another community member or two to be able to keep the list updated.
+
