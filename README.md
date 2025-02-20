@@ -12,6 +12,7 @@ This project hosts TWO (2) related efforts, each with its own installer:
 
 NOTE: Windows may display a warning about the installer being an "UNRECOGNIZED Program". This does NOT mean its a virus, trojan or other type of malware. Effectively, this is because free projects like this can not afford costs associated with "code-signing". If it was truly malware, the message would be different - not just "UNRECOGNIZED". You can click "More Info" and then "Run Anyway". Alternatively, see the MANUAL installation instructions.
 
+
 FoF Community Server List Update (aka HSB Work-Around):
 ======================================================
 The server list update effectively re-directs the FoF game client to use this GitHub as its source for an updated server list - instead of using the stale data posted in the old/official system.  
@@ -20,15 +21,17 @@ Ideally, this is an entirely temporary solution.  Should the developer come back
 
 Again, the goal here is not to "usurp control" of the game from the developer.  This is just to "work-around" his (prolonged) absence.
 
-For more details of the FoF Community Server List Update, see the related ReadME file (FoF-Community-Server-List-Update.md):
+For more details of the FoF Community Server List Update (including both links to download the related Windows installer, AND the manual installation instructions), see the related ReadME file (FoF-Community-Server-List-Update.md):
 https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
+
 
 FoF Community Map Thumbnails Update (aka HSB Thumbnails):
 ========================================================
 The map thumbnails update adds preview thumbnails for the many community-developed maps to your FoF installation.
 
-For more details of the FoF Community Map Thumbnails Update, see the related ReadME file (FoF-Community-Map-Thumbnails-Update.md):
+For more details of the FoF Community Map Thumbnails Update (including both links to download the related Windows installer, AND the manual installation instructions), see the related ReadME file (FoF-Community-Map-Thumbnails-Update.md):
 https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
+
 
 Frequently Asked Questions (FAQ):
 ================================
