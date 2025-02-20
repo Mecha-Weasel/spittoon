@@ -13,7 +13,7 @@ Glossary:
 * That lead of course to the need for manual installation instructions (which were created).
 * It was suggested that applying such an modification manually might be too difficult for most players.
 * Consequently, a Windows "Installer" program was created to perform the modification for players, and allow for easily uninstalling the modification later.
-* That lead of course to issues with Windows (perhaps rightfully) warning users about running the installer (just like ANY other program downloaded from the Internet) - not because its malware, but because its (from Windows perspective) some random program downloaded from the Intenet (e.g. not something published by a major software publisher).
+* That lead of course to issues with Windows (perhaps rightfully) warning users about running the installer (just like ANY other program downloaded from the Internet).  This is not because its malware (no message actually says that), but because from Windows' perspective it is just some random program downloaded from the Intenet (e.g. not something published by a major software publisher).
 * That lead to more documentation and installation instruction updates.
 * That is how we got to where we are now.
 
