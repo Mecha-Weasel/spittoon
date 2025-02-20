@@ -62,9 +62,18 @@ Q: Why don't the maps already include HSB preview thumbnails for them?
 
 A: Many maps actually pre-date the existance of the entire HSB feature, and many map authors are not aware of how it operates.
 
-[9] Who DF are you?
+[9] What about adding/removing servers from the list?
+----------------------------------------------------
+Q: How will servers be added-to/removed-from the list? and what conditions are required to be on the list?
+
+A: It is a manual process to add/remove servers on the list.  This will likely be driven from a discussion area on the Fistful of Frags (FoF) Steam Game-Hub (https://steamcommunity.com/app/265630/discussions/6/), similar to how the (presently absent) developer was originally handling it.  Conditions should eventually be better documented on there (rather than here), but generally will probably include things like:
+* No proxies / re-directs.
+* No "fake-players" (bots that do not show-up as bots, etc.)
+* Limited number of servers per IP address.
+
+[10] Who DF are you?
 ------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
-A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.
+A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".
  
