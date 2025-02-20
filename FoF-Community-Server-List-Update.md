@@ -18,6 +18,8 @@ The Windows Installer program features:
 * Adds an "uninstall" feature to the Windows Control-Panel.
 * The uninstall feature reverts to the original/official client.dll file.
 
+NOTE: If for ANY reason you do not want to use the "Insaller", you can apply the modification manually using these instructions further below ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md#installation-manual
+
 Installation (Installer):
 ------------------------
 
