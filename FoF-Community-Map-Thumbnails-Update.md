@@ -18,6 +18,8 @@ Features of the Windows Installer program:
 * Adds an "uninstall" feature to the Windows Control-Panel.
 * The uninstall feature removes all the custom thumbnails.
 
+NOTE: If for ANY reason you do not want to use the "Insaller", you can apply the modification manually using these instructions further below ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnail-Update.md#installation-manual
+
 Installation (Installer):
 ------------------------
 
