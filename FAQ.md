@@ -6,6 +6,17 @@ Glossary:
 * FoF = Fistful of Frags (the game)
 * HSB = Highlighted Server Browser (the graphic interface in FoF showing thumbnails of map running on various FoF game-severs).
 
+[0] How did this update evolve?
+------------------------------
+* It started-out as an experiment to see if a community-sourced server list was even possible.
+* It was originally just a modified client.dll file (which players would have to manually install) and a text file in this repository to use as the source of the community-generated server list.
+* That lead of course to the need for manual installation instructions (which were created).
+* It was suggested that applying such an modification manually might be too difficult for most players.
+* Consequently, a Windows "Installer" program was created to perform the modification for players, and allow for easily uninstalling the modification later.
+* That lead issues of course with Windows (perhaps rightfully) warning users about running the installer (just like ANY other program downloaded from the Internet).
+* That lead to more documentation and installation instruction updates.
+* That is how we got to where we are now.
+
 [1] Is this required?
 --------------------
 Q: Can I continue to play FoF without installing either of these "Spittoon" updates?
@@ -75,5 +86,5 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 ------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
-A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".
+A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".  At this point, people are either going to use the update (using the installer or manually) or not.  I am largely done with my efforts.  I'll be delegating access to the repository for another community member or two to be able to keep the list updated.
  
