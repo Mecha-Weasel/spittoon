@@ -1,5 +1,5 @@
 //
-//	Updated 2024-02-20c by Weasel (Weasel.SteamID.155@gMail.com)
+//	Updated 2024-02-20d by Weasel (Weasel.SteamID.155@gMail.com)
 //		Updated list to convert back to IP addresses only (no port information),
 //		Since recent testing has indicated that the "port" option is not currently implemented.
 //
@@ -86,7 +86,6 @@
 		"0" { "name" "Dynamite (JP)" "ip" "106.53.103.49" "port" "0" "mode" "3" }
 		"0" { "name" "Dynamite (UK)" "ip" "206.245.212.163" "port" "0" "mode" "3" }
 		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
-		"0" { "name" "FBM (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "FBR (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "FLWN.dev (CZ)" "ip" "78.80.33.198" "port" "0" "mode" "3" }
 		"0" { "name" "GamingKamel (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
