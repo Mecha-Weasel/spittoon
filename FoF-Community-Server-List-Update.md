@@ -51,7 +51,7 @@ Installation (Manual):
 
 NOTE-1: Although these instructions are specifically for Windows, equivalent actions should work under Linux, but using the "client.so" file - which is also available in this GitHub.
 
-NOTE-2: These instructions presume/require that you know your way around Windows and/or Linux (download files, copy files, rename files, etc.), how to navigate to/find where Fistful of Frags actually gets installed on your computer, etc.
+NOTE-2: These instructions presume/require that you know your way around Windows and/or Linux (download files, copy files, rename files, etc.), as well as how to navigate to/find where Fistful of Frags actually gets installed on your computer.
 
 1) Make sure you already have Fistful-of-Frags (FoF) installed.
 
