@@ -84,7 +84,7 @@ A: Changed the URL for where to retrieve HSB data from, as follows:
 	URL After:
 	https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/serverban.txt
 
-[11] Who DF are you?
+[99] Who DF are you?
 -------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
