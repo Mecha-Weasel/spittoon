@@ -75,7 +75,7 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 
 [10] Technical details of the HSB change?
 ----------------------------------------
-Q: What EXACTLY was changed in the game client DLL / so file?
+Q: What EXACTLY was changed in the game client .dll / .so file?
 A: Changed the URL for where to retrieve HSB data from, as follows:
 
 	URL Before:
@@ -83,6 +83,11 @@ A: Changed the URL for where to retrieve HSB data from, as follows:
 
 	URL After:
 	https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/serverban.txt
+
+[11] How was this accomplished?
+------------------------------
+Q: How exactly was the URL change in the .dll / .so file accmoplished?
+A: With MAGIC, WITCHCRAFT and SORCERY, of couse!  Seriously, I am NOT going to write a tutorial on how to edit object libraries and/or executables used in abadonware.
 
 [99] Who DF are you?
 -------------------
