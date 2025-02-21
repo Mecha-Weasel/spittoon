@@ -20,6 +20,7 @@ Glossary:
 [1] Is this required?
 --------------------
 Q: Can I continue to play FoF without installing either of these "Spittoon" updates?
+
 A: ABSOLUTELY.  These are totally optional.  However, you will just have a more LIMITED experience, specifically:
 	1) Way less servers displayed in the HSB - possibly meaning servers in your region do not get shown at all.
 	2) Generic "Custom Map" icons shown more often for map that were not part of the last FoF game-update.
@@ -27,11 +28,13 @@ A: ABSOLUTELY.  These are totally optional.  However, you will just have a more 
 [2] Problems playing with others?
 --------------------------------
 Q: If I load these updates (or do not load these updates) will either cause me problems playing with other who do or do not load them?
+
 A: NO.  You and your friends may still play together on the same servers, etc.  However, depending on whether or not you both load them, you may not both see the same list of servers available - instead only seeing a smaller sub-set.
 
 [3] Benefits to using?
 ---------------------
 Q: What is the benefit of loading either of these "Spittoon" updates?
+
 A: Obviously, you didn't read the documention in the GitHub.  See these documentation links:
 	1) About the project generally ... https://github.com/Mecha-Weasel/spittoon/blob/main/README.md
 	2) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
@@ -40,16 +43,19 @@ A: Obviously, you didn't read the documention in the GitHub.  See these document
 [4] Benefits to NOT using?
 -------------------------
 Q: If there any benefit to NOT using the updates?
+
 A: I guess, if you like to live the current near-abondonware state of Fistful of Frags, that's your decision.  However, over time you will probably see less-and-less servers available to play-on (as old servers shut-down or change IP addresses), and more importantly will not see the wide range of new servers that are already added, or any that might be be added in the future.  It is of course, your decision.
 
 [5] If/when developer returns?
 -----------------------------
 Q: What happens if/when the developer returns to being actively engaged with FoF?
+
 A: Hopefully, all this becomes IRRELEVANT.  Nothing done with these updates should interfere with the developer pushing out updates via Steam and negating the need for these updates.  Players should not be impacted in any way.
 
 [6] Windows Installer warnings?
 ------------------------------
 Q: When I run either of the "Installer" programs, Windows shows a warning about it being an "Unrecognized Program", what is up with that?
+
 A: That is because the progam(s) are not "code-signed", which is common for paid-companies producing commercial software, but out of the scope for free things like this.
 
 [7] Possible to manually install instead?
@@ -63,11 +69,13 @@ A: ABSOLUTELY.  The "Installer" programs are just a convenience.  The instructio
 [8] Maps don't already include HSB thumbnails?
 ---------------------------------------------
 Q: Why don't the maps already include HSB preview thumbnails for them?
+
 A: Many maps actually pre-date the existance of the entire HSB feature, and many map authors are not aware of how it operates.
 
 [9] What about adding/removing servers from the list?
 ----------------------------------------------------
 Q: How will servers be added-to/removed-from the list? and what conditions are required to be on the list?
+
 A: It is a manual process to add/remove servers on the list.  This will likely be driven from a discussion area on the Fistful of Frags (FoF) Steam Game-Hub (https://steamcommunity.com/app/265630/discussions/6/), similar to how the (presently absent) developer was originally handling it.  Conditions should eventually be better documented on there (rather than here), but generally will probably include things like:
 * No proxies / re-directs.
 * No "fake-players" (bots that do not show-up as bots, etc.)
@@ -76,6 +84,7 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 [10] Technical details of the HSB change?
 ----------------------------------------
 Q: What EXACTLY was changed in the game client .dll / .so file?
+
 A: Changed the URL for where to retrieve HSB data from, as follows:
 
 	URL Before:
@@ -87,6 +96,7 @@ A: Changed the URL for where to retrieve HSB data from, as follows:
 [11] How was this accomplished?
 ------------------------------
 Q: How exactly was the URL change in the .dll / .so file accmoplished?
+
 A: With MAGIC, WITCHCRAFT and SORCERY, of couse!  Seriously, I am NOT going to write a tutorial on how to edit object libraries and/or executables used in abadonware.
 
 [99] Who DF are you?
