@@ -74,6 +74,7 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 * Limited number of servers per IP address.
 
 [10] Technical details of the HSB change?
+----------------------------------------
 Q: What EXACTLY was changed in the game client DLL / so file?
 A: Changed the URL for where to retrieve HSB data from, as follows:
 
@@ -84,7 +85,7 @@ A: Changed the URL for where to retrieve HSB data from, as follows:
 	https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/serverban.txt
 
 [11] Who DF are you?
-------------------
+-------------------
 Q: Who is this "Weasel" guy, and why is he doing this?
 
 A: I am just a person with a 35+ year technology background that has been playing or involved with FoF from it's pre-Steam versions, and game-servers and map/level design since pre-Y2K.  I am just trying to utilize whatever experience I have to help the community avoid total "abandonware".  At this point, people are either going to use the updates (using the installers or manually) or not.  I am largely done with my efforts.  I will be delegating access to the repository for another community member or two to be able to keep the list updated.
