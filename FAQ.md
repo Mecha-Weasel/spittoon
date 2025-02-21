@@ -85,7 +85,7 @@ A: It is a manual process to add/remove servers on the list.  This will likely b
 ----------------------------------------
 Q: What EXACTLY was changed in the game client .dll / .so file?
 
-A: Changed the URL for where to retrieve HSB data from, as follows:
+A: I changed the URL that the FoF game-client uses to find HSB server list data. Specifically:
 
 	URL Before:
 	https://docs.google.com/uc?id=0B7CcAN2HwhB4RmJreEtWd05DdjQ&export=download
