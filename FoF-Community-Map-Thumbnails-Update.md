@@ -27,7 +27,7 @@ Installation (Installer):
 2) If you have FoF open, close it.
 3) Download the installer (FoF-Community-Map-Thumbnails-Update.exe) from this URL:
 
-https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Community-Map-Thumbnails-Update.exe
+https://github.com/Mecha-Weasel/spittoon/releases/download/v20250224f/FoF-Community-Map-Thumbnails-Update.exe
 
 4) Save the installer (FoF-Community-Map-Thumbnails-Update.exe) somewhere on your computer.
 5) Wait a minute or two, to allow whatever anti-virus/anti-malware you have on your computer time to detect the new file and scan it for malware.
