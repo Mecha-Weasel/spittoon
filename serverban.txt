@@ -1,5 +1,5 @@
 //
-//	Updated 2024-02-21a by Weasel (Weasel.SteamID.155@gMail.com)
+//	Updated 2024-03-03a by Weasel (Weasel.SteamID.155@gMail.com)
 //		Updated list to convert back to IP addresses only (no port information),
 //		Since recent testing has indicated that the "port" option is not currently implemented.
 //
@@ -80,7 +80,7 @@
 		"0" { "name" "Our Dare (KR)" "ip" "158.247.196.98" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
-		"0" { "name" "[WL/S³] (US)" "ip" "108.184.194.28" "port" "0" "mode" "3" }
+		"0" { "name" "[WL/S³] (US)" "ip" "76.90.211.69" "port" "0" "mode" "3" }
 		"0" { "name" "Austino (UK)" "ip" "188.74.70.53" "port" "0" "mode" "3" }
 		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "Dr. No (US)" "ip" "74.91.123.66" "port" "0" "mode" "3" }
