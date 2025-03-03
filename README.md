@@ -1,5 +1,9 @@
 Project "Spittoon":
 ==================
+
+NOTE: The FAQ is available here ...
+https://github.com/Mecha-Weasel/spittoon/blob/main/FAQ.md
+
 Mostly, the purpose of this project is to work-around the fact that the Fistful-of-Frags (FoF) server list is currently populated with stale data.  In the past, the developer (singular) would manually update the server list data - by way of an embedded link to a web-hosted file, that only he controls.
 
 Since the developer has been away from the game for nearly two (2) years now, the current official server list data (effectively a very curated list of dedicated game servers) has gotten VERY stale.  At last check, the server list data included approximately 43 server IP addresses, of which only 13 were still active. Also, various new servers have come online since then, and several existing ones have undergone IP address changes.
