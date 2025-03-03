@@ -38,9 +38,9 @@ Q: What is the benefit of loading either of these "Spittoon" updates?
 
 A: Obviously, you didn't read the documention in the GitHub.  See these documentation links:
 
-	1) About the project generally ... https://github.com/Mecha-Weasel/spittoon/blob/main/README.md
-	2) About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
-	3) About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
+* About the project generally ... https://github.com/Mecha-Weasel/spittoon/blob/main/README.md
+* About the HSB work-around specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md
+* About the HSB thumbnails specifically ... https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md
 
 [4] Benefits to NOT using?
 -------------------------
