@@ -23,8 +23,8 @@ Q: Can I continue to play FoF without installing either of these "Spittoon" upda
 
 A: ABSOLUTELY.  These are totally optional.  However, you will just have a more LIMITED experience, specifically:
 
-	1) Way less servers displayed in the HSB - possibly meaning servers in your region do not get shown at all.
-	2) Generic "Custom Map" icons shown more often for map that were not part of the last FoF game-update.
+* Less servers displayed in the HSB - possibly meaning servers in your region do not get shown at all.
+* Generic "Custom Map" icons shown more often for map that were not part of the last FoF game-update.
 
 [2] Problems playing with others?
 --------------------------------
