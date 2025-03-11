@@ -43,6 +43,7 @@ Uninstallation (Installer):
 3) Open the "Programs and Features" list.
 4) Scroll-down, to find (and select) "FoF Community Server List Update".
 5) Select "Uninstall".
+6) Allow it a moment to refresh, and it should disappear from the list.
 
 NOTE: Although the "uninstall" feature will roll-back the changes (putting-back the official client.dll file).  It does NOT have the ability to clear-out any cached HSB data.  So, even after you roll-back to the official client.dll file, you may still see the community-generated server list.  I have not found any way to clear that cached server list information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
