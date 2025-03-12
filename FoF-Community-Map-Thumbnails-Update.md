@@ -58,9 +58,11 @@ NOTE-2: These instructions presume/require that you know your way around Windows
 3) Navigate to the correct folder.
 
      On Windows, that should be here (unless you have intentionally installed FoF to an alternative location):
+     
           C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\materials\vgui\maps
 
      On Linux Mint, that should be here (unless you have intentionally installed FoF to an alternative location):
+     
           ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\materials\vgui\maps  
 
 4) Download the FoF-Map-Thumbnails-Latest-GameServer.zip file from this GitHub and use it to replace the original/official version:
