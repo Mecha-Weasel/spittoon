@@ -60,11 +60,11 @@ NOTE-2: These instructions presume/require that you know your way around Windows
 
 3) Make a backup copy of the original/official client.dll file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.  Just in case you "forget" to do this, there is also a backup copy in the GitHub.
 
-     On Windows, the "client.dll" file should be located here in this folder (unless you have intentionally installed it to an alternative location):
+     On Windows, this folder (unless you have intentionally installed it to an alternative location):
      
           C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin\
 
-     On Linux Mint, the "client.so" file it should be located here in this folder (unless you have intentionally installed it to an alternative location):
+     On Linux Mint, this folder (unless you have intentionally installed it to an alternative location):
      
           ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\bin\
 
