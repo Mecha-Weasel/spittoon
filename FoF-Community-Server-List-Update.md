@@ -60,21 +60,19 @@ NOTE-2: These instructions presume/require that you know your way around Windows
 
 3) Make a backup copy of the original/official client.dll file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.  Just in case you "forget" to do this, there is also a backup copy in the GitHub.
 
-On Windows, the "client.dll" file should be located here in this folder (unless you have intentionally installed it to an alternative location):
+     On Windows, the "client.dll" file should be located here in this folder (unless you have intentionally installed it to an alternative location):
+          C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin\
 
-     C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin\
-
-On Linux Mint, the "client.so" file it should be located here in this folder (unless you have intentionally installed it to an alternative location):
-
-     ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\bin\
+     On Linux Mint, the "client.so" file it should be located here in this folder (unless you have intentionally installed it to an alternative location):
+          ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\bin\
 
 4) Download the unofficial/modded "client.dll" file from this GitHub and use it to replace the original/official version:
 
-Windows Direct Download =
-https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.dll
+     Windows Direct Download =
+          https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.dll
 
-Linux Direct Download =
-https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.so
+     Linux Direct Download =
+          https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/fof/bin/client.so
 
 NOTE: Hashes for each library (.dll or .so) file are available in the GitHub for anyone who cares to validate after downloading.
 
