@@ -60,9 +60,13 @@ NOTE-2: These instructions presume/require that you know your way around Windows
 
 3) Make a backup copy of the original/official client.dll file on your computer.  Call is something like "client.official.dll".  If you ever want/need to roll-back to the official version, you will have it handy.  Just in case you "forget" to do this, there is also a backup copy in the GitHub.
 
-It should be located here in this folder (for Windows), unless you have intentionally installed it to an alternative location:
+On Windows, the "client.dll" file should be located here in this folder (unless you have intentionally installed it to an alternative location):
 
-     C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin
+     C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\bin\
+
+On Linux Mint, the "client.so" file it should be located here in this folder (unless you have intentionally installed it to an alternative location):
+
+     ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\bin\
 
 4) Download the unofficial/modded "client.dll" file from this GitHub and use it to replace the original/official version:
 
@@ -82,7 +86,7 @@ Uninstallation (Manual):
 4) Make a copy of the client.official.dll file.
 5) Rename the copy to just client.dll.
 
-NOTE: Although this will roll-back the changes (putting back official .DLL file).  It does NOT clear-out cached server list data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) server list.  I have not found any way to clear that cached server list information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
+NOTE: Although this will roll-back the changes (putting back official "client.dll" or "client.so" file).  It does NOT clear-out cached server list data.  So, even after you roll-back to the offical .DLL file, you may still see my (community-generated) server list.  I have not found any way to clear that cached server list information, short of UNINSTALLING Fistful-of-Frags and REINSTALLING it.
 
 Usage:
 =====
