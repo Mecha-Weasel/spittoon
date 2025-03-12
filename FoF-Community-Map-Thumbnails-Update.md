@@ -55,14 +55,18 @@ NOTE-2: These instructions presume/require that you know your way around Windows
 
 2) If you have Fistful-of-Frags (FoF) open, close it.
 
-3) Navigate to the correct folder.  It should be located here in this folder (for Windows), unless you have intentionally installed it to an alternative location:
+3) Navigate to the correct folder.
 
-     C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\materials\vgui\maps
+     On Windows, that should be here (unless you have intentionally installed FoF to an alternative location):
+          C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\materials\vgui\maps
+
+     On Linux Mint, that should be here (unless you have intentionally installed FoF to an alternative location):
+          ~/.steam/debian-installation/steamapps/common/Fistful of Frags\fof\materials\vgui\maps  
 
 4) Download the FoF-Map-Thumbnails-Latest-GameServer.zip file from this GitHub and use it to replace the original/official version:
 
-Direct Download =
-https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-GameServer.zip
+     Direct Download =
+          https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-GameServer.zip
 
 5) Extract the contents of FoF-Map-Thumbnails-Latest-GameServer.zip file into the fof\materials\vgui\maps folder.
 
