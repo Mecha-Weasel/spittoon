@@ -41,6 +41,9 @@ In particular, the default (developer-supplied / developer-managed) [i]manually[
 
 Currently, [b]two-thirds[/b] ([b]2/3[/b]) of the information it uses is [b]old[/b] / "[b]stale[/b]" (e.g. servers that [i]do not exist any more[/i], or have changed IP addresses).
 
+In short, what this update does, is to accomplish this:
+[previewimg=39970389;sizeFull,floatLeft;HSB-Servers-BeforeAfter.jpg][/previewimg]
+
 2 - Wait, which "server-list"?
 
 [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) actually has [b]two[/b] different lists of servers, which are related but not the same.  This can cause some confusion, especially for new players.

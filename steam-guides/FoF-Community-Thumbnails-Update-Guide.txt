@@ -30,6 +30,9 @@ In particular, the preview thumbnails (images) used to show which map is current
 
 Currently, the last official update to thumbnail previews a almost [b]two[/b] ([b]2[/b]) years ago, and only included thumbnail previews for "official" maps.  This results in many servers being shown with the generic "[b]Custom Map[/b]" icon, instead of an actual preview thumbnail of the map they are currently running.
 
+In short, what this update does, is to accomplish this:
+[previewimg=39970384;sizeFull,floatLeft;HSB-Thumbnails-BeforeAfter.jpg][/previewimg]
+
 2 - Wait, which "server-list"?
 
 [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) actually has [b]two[/b] different lists of servers, which are related but not the same.  This can cause some confusion, especially for new players.
