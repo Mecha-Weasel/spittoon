@@ -1,20 +1,34 @@
-Original BBCode for:
-https://steamcommunity.com/sharedfiles/filedetails/?id=3442390182
-
 How to install the community FoF server-list update (2025-02)
 
 Guide for downloading and installing the community-developed server-list update for [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
 
-0 - Revision History
 
-Be sure to check here for anything that may have changed, since the last time you read-through or used this guide.
+0 - Translations & Revision History
 
-[b][u]NOTE[/u]:[/b] Latest updates at the top,
-
+[h1]Available Translations:[/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3445214775]Portuguese[/url], not a full translation, but related - graciously provided by: [url=https://steamcommunity.com/profiles/76561198062263882]Paralhama[/url]
+[*] [b]Google Translate[/b] (a last resort): [i][b]Do [u]NOT[/u] click[/b] the URL below.  [b]Copy[/b] and [b]paste[/b] the text below into your browser!  Just [b]clicking[/b] the link will [b][u]NOT[/u][/b] work - due to how the Steam Community web-site [b]mangles[/b] URLs.[/i]
+[code]https://translate.google.com/translate?js=n&sl=en&tl=auto&u=https://steamcommunity.com/sharedfiles/filedetails/?id=3442390182[/code]
+[/list]
+[h1]Revision History:[/h1]
+[b][u]NOTE[/u]:[/b] Latest updates at the top.
 [table]
 	[tr]
 		[th]Revision Date[/th]
 		[th]Revision Notes[/th]
+	[/tr]
+	[tr]
+		[td]20250317[/td]
+		[td]Added translation information.[/td]
+	[/tr]
+	[tr]
+		[td]20250315[/td]
+		[td]Adjusting alignment of images.[/td]
+	[/tr]
+	[tr]
+		[td]20250313[/td]
+		[td]Initial publication.[/td]
 	[/tr]
 	[tr]
 		[td]20250312[/td]
@@ -33,6 +47,7 @@ Be sure to check here for anything that may have changed, since the last time yo
 	[/tr]
 [/table]
 
+
 1 - About this update
 
 The purpose of this update it to resolve some issues with the in-game server-list features of [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]).
@@ -42,7 +57,8 @@ In particular, the default (developer-supplied / developer-managed) [i]manually[
 Currently, [b]two-thirds[/b] ([b]2/3[/b]) of the information it uses is [b]old[/b] / "[b]stale[/b]" (e.g. servers that [i]do not exist any more[/i], or have changed IP addresses).
 
 In short, what this update does, is to accomplish this:
-[previewimg=39970389;sizeFull,floatLeft;HSB-Servers-BeforeAfter.jpg][/previewimg]
+[previewimg=39970389;sizeFull,inline;HSB-Servers-BeforeAfter.jpg][/previewimg]
+
 
 2 - Wait, which "server-list"?
 
@@ -56,7 +72,7 @@ These [i][b]two[/b][/i] server-list features are:
 
 [u][b]Highlighted Server Browser[/b] (or [b]HSB[/b])[/u]:
 
-[previewimg=39948577;sizeFull,floatLeft;FoF-HSB-Before-Notated.jpg][/previewimg]
+[previewicon=39948577;sizeFull,inline;FoF-HSB-Before-Notated.jpg][/previewicon]
 [list]
 [*] This is the screen you see when you first enter the game, showing thumbnail preview images of different maps running on available game-servers.  Because of its visual nature (images), this is referred-to as the [b][u]Highlighted[/u] Server Browser[/b] (or [b]HSB[/b]).
 [*] This feature is how most [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) players find and connect to servers to play the game.  This is [i]especially[/i] true for those new to the game.
@@ -67,8 +83,8 @@ These [i][b]two[/b][/i] server-list features are:
 
 [u][b]Full Server List[/b] ("Find Servers")[/u]:
 
-[previewimg=39948732;sizeFull,floatLeft;FoF-Find-Servers-Notated.jpg][/previewimg]
-[previewimg=39948770;sizeFull,floatLeft;FoF-Full-List-Notated.jpg][/previewimg]
+[previewimg=39948732;sizeFull,inline;FoF-Find-Servers-Notated.jpg][/previewimg]
+[previewimg=39948770;sizeFull,inline;FoF-Full-List-Notated.jpg][/previewimg]
 [list]
 [*] On the initial screen, there is also a [b]Find Servers[/b] option.  This will display a more complete list of current [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) game-servers, but [i]without any map-preview images.[/i]
 [*] This feature is how many [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) long-term players find and connect to servers to play the game.  In particular the "[b]Favorites[/b]" tab is used extensively by experienced players.
@@ -76,6 +92,7 @@ These [i][b]two[/b][/i] server-list features are:
 [*] This update [i]does [b]not[/b] alter the way that "Full" server list works [b]in any way.[/b][/i]
 [*] If you use this feature and like it, please feel free to continue doing-so.  I still recommend you apply the update.  However, if you rarely use the [b]HSB[/b] you may see little benefit.
 [/list]
+
 
 3 - Prerequisites (things you need before updating)
 
@@ -90,12 +107,28 @@ Things you need to [b]do[/b] or [b]know[/b] [i]before[/i] updating:
 [/list]
 [b][u]NOTE[/u]:[/b] You [i]may[/i] need to be an "Administrator" on your computer to be able to install software.
 
+
+3 - Prerequisites (things you need before updating)
+
+Things you need to [b]do[/b] or [b]know[/b] [i]before[/i] updating:
+[list]
+[*] You must already have [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) installed.
+[*] If you have [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) open, close it.
+[*] If you did NOT install [b]FoF[/b] to the default location, you must know [i]exactly[/i] where you installed it.  The default location (on Windows) is typically:
+[code]C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags[/code]
+[*] For example, you might have installed it to a different Steam "Library" on a different hard-drive, resulting in it being installed somewhere such as:
+[code]D:\SteamLibrary\steamapps\common\Fistful of Frags[/code]
+[/list]
+[b][u]NOTE[/u]:[/b] You [i]may[/i] need to be an "Administrator" on your computer to be able to install software.
+
+
 4 - Where to get the update?
 
 The [b]Windows installation program[/b] for the community [b]server-list update[/b] for [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) is hosted in the [url=https://github.com/Mecha-Weasel/spittoon]"Project Spittoon" GitHub[/url].  Specifically, the current "release" version is available in the [url=https://github.com/Mecha-Weasel/spittoon/releases]"releases" page[/url].
 [code]https://github.com/Mecha-Weasel/spittoon/releases[/code]
 
-[previewimg=39948944;sizeFull,floatLeft;FoF-Update-Download-Notated.jpg][/previewimg]
+[previewimg=39948944;sizeFull,Inline;FoF-Update-Download-Notated.jpg][/previewimg]
+
 
 5 - How to install the update (using the installer)
 
@@ -103,39 +136,41 @@ The [b]Windows installation program[/b] for the community [b]server-list update[
 
 To start the installer program ([b]FoF-Community-Server-List-Update.exe[/b]), just double-click on it - in whatever Windows folder you downloaded it to from your web-browser.  Typically, this defaults to your "[b]Downloads[/b]" folder.
 
+
 6 - Potential Windows warning
 
 When to try to start the update installer program, Windows may warn that you are trying to run an "[b]unrecognized program[/b]" or "[b]unrecognized app[/b]", as shown below:
-[previewimg=39949164;sizeFull,floatLeft;HSB-Server-List-Update-Warning-1-Notated.jpg][/previewimg]
+[previewimg=39949164;sizeThumb,Inline;HSB-Server-List-Update-Warning-1-Notated.jpg][/previewimg]
 
 If so, you will need to click the "[b]More info[/b]" option, to display the "[b]Run anyway[/b]" button to proceed, as shown below:
-[previewimg=39949163;sizeFull,floatLeft;HSB-Server-List-Update-Warning-2-Notated.jpg][/previewimg]
+[previewimg=39949163;sizeThumb,Inline;HSB-Server-List-Update-Warning-2-Notated.jpg][/previewimg]
+
 
 7 - Update installation prompts
 
 Once you start the installer program, it will prompt you to select a language.  This is the language the installer program itself will use, and has no bearing or effect on your existing [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) installation.  Select the language you would like, and/or click the [b]Next[/b] button to continue.
 
-[previewimg=39949272;sizeFull,floatLeft;HSB-Server-List-Update-Install-1-Notated.jpg][/previewimg]
+[previewimg=39949272;sizeThumb,Inline;HSB-Server-List-Update-Install-1-Notated.jpg][/previewimg]
 
 [hr][/hr]
 On the next screen, you have to opportunity to select where your [i][u]existing[/u][/i] [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) is located.  If you have installed to some alternative location (such as a Steam "Library" setup on a secondary drive), use the [b]Browse[/b] button to select the "Fistful of Frags" folder.  Click [b]Next[/b] to continue.
 
-[previewimg=39949271;sizeFull,floatLeft;HSB-Server-List-Update-Install-2-Notated.jpg][/previewimg]
+[previewimg=39949271;sizeThumb,Inline;HSB-Server-List-Update-Install-2-Notated.jpg][/previewimg]
 
 [hr][/hr]
 If you forgot to exit [b]FoF[/b] (or have any other video-game currently running that happens to be based on the same "Source" game-engine) an error will be displayed - giving you an opportunity to switch back to that game and exit it, before continuing with the update installation.
 
-[previewimg=39949270;sizeFull,floatLeft;HSB-Server-List-Update-Install-4-Notated.jpg][/previewimg]
+[previewimg=39949270;sizeThumb,Inline;HSB-Server-List-Update-Install-4-Notated.jpg][/previewimg]
 
 [hr][/hr]
 If a valid [i][u]existing[/u][/i] [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) installation is [i]NOT detected[/i] at the location you select, [i]an error will be displayed, and the installation of the update will be [b]cancelled[/b].[/i]  Otherwise, the next screen shown will display the location where the installer is about to apply the update to.  Click [b]Next[/b] to continue.
 
-[previewimg=39949269;sizeFull,floatLeft;HSB-Server-List-Update-Install-5-Notated.jpg][/previewimg]
+[previewimg=39949269;sizeThumb,Inline;HSB-Server-List-Update-Install-5-Notated.jpg][/previewimg]
 
 [hr][/hr]
 After the update installation completes, a screen will be displayed indicating so.  You may click the [b]Finish[/b] to close the installer.
 
-[previewimg=39949268;sizeFull,floatLeft;HSB-Server-List-Update-Install-6-Notated.jpg][/previewimg]
+[previewimg=39949268;sizeThumb,Inline;HSB-Server-List-Update-Install-6-Notated.jpg][/previewimg]
 
 
 8 - How to use the update
@@ -143,30 +178,34 @@ After the update installation completes, a screen will be displayed indicating s
 Once the update is successfully installed (either using the installer program or manually), just use [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) like normal.  The only difference you should see is some changes to [i]which servers[/i] may appear in the various preview thumbnails shown in the [b]Highlighted Server Browser[/b] ([b]HSB[/b]) area of the screen.
 
 For example, you may notice some servers that previously were not displayed:
-[previewimg=39949588;sizeFull,floatLeft;FoF-HSB-After-Notated.jpg][/previewimg]
+[previewimg=39949588;sizeFull,Inline;FoF-HSB-After-Notated.jpg][/previewimg]
 
 Of course, exactly which servers you see listed [i]will vary greatly[/i] based on your location / region, communication rates (pings) to various servers, whether or not a server is full, etc.
 
 Also, you can still play on servers that do not show-up in the [b]HSB[/b] at all - by [i]finding them in the [b]"Full" server list[/b][/i], and right-click on them to add them to your "Favorites" tab.
 
+
 9 - How to uninstall the update (if installed using the installer)
 
 If you installed this update using the Windows installer program, it should show-up in Windows [b]Control Panel[/b], under the "[b]Programs and Features[/b]" area - [i]just like any other Windows program.[/i]
 
-[previewimg=39949463;sizeFull,floatLeft;HSB-Server-List-Update-ControlPanel-1-Notated.jpg][/previewimg]
+[previewimg=39949463;sizeFull,Inline;HSB-Server-List-Update-ControlPanel-1-Notated.jpg][/previewimg]
 
 The update can be uninstalled from there.  For additional information, see also the uninstallation notes in the GitHub:
 [code]https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md#uninstallation-installer[/code]
+
 
 10 - How to install the update (manually)
 
 To install this update [i]manually[/i] (either on [b]Windows[/b] [i]without using the installer program[/i], or on a [b]Linux[/b] desktop client), please refer to the instructions in the GitHub:
 [code]https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md#installation-manual[/code]
 
+
 11 - How to uninstall the update (manually)
 
 If you installed the update [i]manually[/i] (either on [b]Windows[/b] [i]without using the installer program[/i], or on a [b]Linux[/b] desktop client), please refer to the instructions in the GitHub:
 [code]https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md#uninstallation-manual[/code]
+
 
 12 - Who created this update?
 
@@ -182,26 +221,5 @@ Speaking of the broader [url=https://store.steampowered.com/app/265630/]Fistful 
 [*] The "[b]Saloon[/b]" (a long-established FoF-supportive community)
 [*] The "[b]Salty Spitoon Saloon[/b]" (a recently-established community for active FoF advancement).
 [/list]
-
-13 - Additional Information
-
-Links to various additional information are included below:
-[list]
-[*] [url=https://github.com/Mecha-Weasel/spittoon]The "Project Spittoon" GitHub[/url]
-[*] [url=https://github.com/Mecha-Weasel/spittoon/blob/main/README.md]Information about "Project Spittoon"[/url]
-[*] [url=https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Server-List-Update.md]Information about this [b]HSB [u]server list[/u] update[/b][/url]
-[*] [url=https://github.com/Mecha-Weasel/spittoon/blob/main/FoF-Community-Map-Thumbnails-Update.md]Information about the (related) [b]HSB [u]thumbnail previews[/u] update[/b][/url]
-[*] [url=https://github.com/Mecha-Weasel/spittoon/blob/main/FAQ.md]Frequently-Asked-Questions (FAQ)[/url]
-[/list]
-[b][u]FYI[/u]:[/b] Anyone is welcome to plagiarize this guide as desired, to make alternative versions in different languages, or fulfill other needs.
-
-
-
-
-
-
-
-
-
 
 
