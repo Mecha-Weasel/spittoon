@@ -1,0 +1,507 @@
+How to create FoF map thumbnails (2025)
+
+Guide for to creating [i]map preview thumbnails[/i] for the [b]Highlighted Server Browser[/b] ([b]HSB[/b]) feature of [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).  This is mostly something that might be relevant to either:
+[list]
+[*] [u]Map authors[/u] creating new maps for [b]FoF[/b] - so that when game-servers running their maps are shown in the [b]HSB[/b] a thumbnail preview of what the map actually looks-like will be displayed - instead of the generic "Custom Map" icon.
+[*] [u]Game-server operators[/u] for [b]FoF[/b] - who might be running custom/community maps which pre-date the [b]HSB[/b] system entirely, or for which the map author did not create and distribute a related thumbnail.
+[/list]
+
+
+0 - Translations & Revision History
+
+[h1]Available Translations:[/h1]
+[list]
+[*] [b]Google Translate[/b] (a last resort): [i][b]Do [u]NOT[/u] click[/b] the URL below.  [b]Copy[/b] and [b]paste[/b] the text below into your browser!  Just [b]clicking[/b] the link will [b][u]NOT[/u][/b] work - due to how the Steam Community web-site [b]mangles[/b] URLs.[/i]
+[code]https://translate.google.com/translate?js=n&sl=en&tl=auto&u=https://steamcommunity.com/sharedfiles/filedetails/?id=3445083893[/code]
+[/list]
+[h1]Revision History:[/h1]
+[b][u]NOTE[/u]:[/b] Latest updates at the top.
+[table]
+	[tr]
+		[th]Revision Date[/th]
+		[th]Revision Notes[/th]
+	[/tr]
+		[td]20250320[/td]
+		[td]Initial publication.[/td]
+	[tr]
+		[td]20250317[/td]
+		[td]Added translation information.[/td]
+	[/tr]
+	[tr]
+		[td]20250315[/td]
+		[td]Initial creation, pre-publication.[/td]
+	[/tr]
+[/table]
+
+
+1 - About the HSB and thumbnails
+
+Some information about the [b]HSB[/b] and map preview thumbnails:
+[list]
+[*] This is the screen you see when you first enter the game, showing thumbnail preview images of different maps running on available game-servers.  Because of its visual nature (images), this is referred-to as the [b][u]Highlighted[/u] Server Browser[/b] (or [b]HSB[/b]).
+[previewimg=39999884;sizeFull,Inline;HSB-Thumbnail-Creation-Pic1.jpg][/previewimg]
+[*] This feature is how most [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) players find and connect to servers to play the game.  This is [i]especially[/i] true for those new to the game.
+[*] Having a map preview thumbnail shown is [i]extremely helpful[/i] to players, who may only recognize maps by what they look-like visually.  Also the [b]HSB[/b], does not by itself show the [b]name[/b] of the map currently being run by the server - only a [u]matching[/u] preview thumbnail or the generic "Custom Map" icon.
+[*] Unfortunately, [b]FoF[/b] currently only includes preview thumbnails for maps that shipped with the game at the time of its last update - nearly [b]two[/b] ([b]2[/b]) years ago.  So no preview thumbnails are included for any custom maps released by the community - resulting in the generic "[b]Custom Map[/b]" icon being shown instead of an actual map preview.
+[*] Ideally map authors, would create preview thumbnails for the maps and include them when they distribute the maps.  However, many (mostly really) map authors are currently unfamiliar with this process, in part because (as far as I can determine) its not well documented.  Also, many custom / community maps pre-date the existence of the [b]HSB[/b] feature entirely.
+[*] That's correct, the HSB [i]did not even exist[/i] in earlier releases of [b]FoF[/b].
+[*] This guide aims to remedy that situation - for both [b]map authors[/b] [i]creating[/i] new maps for [b]FoF[/b], as well as for [b]server operators[/b] [i]hosting[/i] community maps on their [b]FoF[/b] game-servers.
+[/list]
+
+
+2 - Prerequisites (things you need first)
+
+Some things you will need (assuming you are doing this on [b]Windows[/b]) are:
+[list]
+[*] [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] already installed.
+[*] A computer capable of running [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] with [url=https://developer.valvesoftware.com/wiki/HDR]HDR[/url] [i]enabled[/i].
+[*] Whichever [b]map[/b] (you are making a thumbnail for) installed in the [b]fof/maps[/b] sub-folder.
+[*] [b]Any text editor[/b]. For these examples, [b]Windows Notepad[/b] will be used - since it is widely available.
+[*] [b]Paint.NET[/b] - available [url=https://www.getpaint.net/]here[/url].  You may actually use any imaged editor [i]with equivalent features[/i].  Unfortunately, [b]Windows Paint[/b] will [i]not[/i] easily suffice.
+[*] [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url] for converting the image file into Valve's proprietary  [url=https://developer.valvesoftware.com/wiki/VTF_(Valve_Texture_Format)]VTF[/url] image format.
+[*] [url=http://www.riintouge.com/VIDE/]VIDE[/url] for manipulating the map BSP file (more info [url=https://developer.valvesoftware.com/wiki/VIDE]here[/url])
+[*] [url=https://github.com/craftablescience/VPKEdit/releases]VPKEdit[/url] for creating [url=https://developer.valvesoftware.com/wiki/VPK_(file_format)]VPK[/url] files (more info [url=https://developer.valvesoftware.com/wiki/VPKEdit]here[/url]).
+[*] [url=https://www.7-zip.org/]7-Zip[/url] for various file/folder compression tasks.
+[/list]
+[b][u]Note[/u]:[/b] For those wishing to do this on [b]Linux[/b] ([url=https://linuxmint.com/]Linux Mint[/url] being my personal favorite for desktop Linux installations), the key [i]differences[/i] and your key [i]equivalents[/i] are probably:
+[list]
+[*] Obviously, the [b]paths[/b] for everything will be [i]different[/i], and the [b]screens[/b] will [i]not look the same[/i].
+[*] Whatever default [b]text-editor[/b] comes with your Linux distribution.
+[*] Whatever [b]image editor[/b] you prefer ([url=https://www.pinta-project.com/]Pinta[/url], [url=https://www.gimp.org/]Gimp[/url], etc.).
+[*] [url=http://www.riintouge.com/VIDE/]VIDE[/url] is actually available for Linux also! (although, I have not tried it myself).
+[*] [url=http://www.riintouge.com/VIDE/]VIDE[/url] has a built-in function similar to [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url] that should suffice (although, I have not tried it myself).
+[*] [url=https://github.com/craftablescience/VPKEdit/releases]VPKEdit[/url] is actually available for Linux also! (although, I have not tried it myself).
+[*] Whatever [b]file archiving / compression[/b] tool you prefer ([b]p7zip[/b], [b]bzip2[/b], etc.) for generating [b].zip[/b] and [b].bz2[/b] files.
+[/list]
+
+
+3 - Capturing a screenshot
+
+Generally, it is best practice to base the map preview thumbnail on a screenshot of the map, in order to best present what that map looks like to the player.   However, [i]if you are the map author[/i], alternative option might be to create some [i]artistic representation[/i] of the map - if you feel that would better represent the map.  For the purposes of this guide, I will use a screenshot as the basis for the preview thumbnail.
+
+[h1]Overall process:[/h1]
+
+At a high-level the part of the process is:
+[list]
+[*] Launch [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
+[*] Make sure the "developer console" is [b]enabled[/b].  [i]If you are not sure how to do this[/i], see the notes and image below for how to do this.
+[*] Start a game using the [b]map[/b] you wish to create a preview thumbnail for.  Be sure that you also configure the game for the appropriate [b]FoF[/b] [i]game-mode[/i] the map requires.  [i]If you are not sure how to do this[/i], see the notes and image below for how to do this.
+[*] If you have [b]net_graph[/b] enabled, [i]turn it off[/i] (e.g. set [b]net_graph 0[/b]).
+[*] Switch to spectator mode (e.g. change to the [b]Spectator[/b] team).
+[*] Move around in spectator mode until you have a good point-of-view on-screen the best represents what this map is like (and that players will later recognize it as).
+[*] Capture a screenshot, and save it to a file you can edit.
+[/list]
+[hr]
+[h1]Enabling the "Developer Console":[/h1]
+[list]
+[*] Open the [b]options[/b] menu, by clicking the [b]gear-shaped[/b] icon the left-side of the screen.
+[*] Make sure you have the "[b]Keyboard[/b]" tab selected/shown.
+[*] Click the "[b]Advanced[/b]" button.
+[*] Ensure that the "[b]Enable developer console[/b]" option is selected/checked.
+[*] Click the "[b]Ok[/b]" button to close that dialog.
+[*] Be aware that (by default) you toggle the developer console open and closed using the [b]tilde[/b] ("[b]~[/b]") key.  You can also re-map this to another key if you desire.  It is listed in the [b]Keyboard[/b] tab as "toggle console".
+[*] If you are done making changes, click the "[b]Ok[/b]" on the options dialog to close that screen.
+[/list]
+[previewimg=40001091;sizeFull,Inline;HSB-Thumbnail-Creation-Pic2.jpg][/previewimg]
+[hr]
+[h1]Starting a game (locally) with the desired map:[/h1]
+[list]
+[*] Launch [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
+[*] Press the [b]tilde[/b] ("[b]~[/b]") key - or whichever key you have "toggle console" bound-to.
+[*] The [b]developer console[/b] window should open.
+[*] This [b]developer console[/b] is essentially a [url=https://en.wikipedia.org/wiki/Command-line_interface]command-line interface[/url] - where you can enter various text-based commands, one-line at a time.
+[*] Set the [b]fof_sv_currentmode[/b] [i]console variable[/i] (or [b]CVAR[/b]) to the mode that the map is compatible with.
+[*] For example, enter this command and press [b]ENTER[/b] to set the game for [b]FoF[/b] "Shoot-Out" mode (used by maps with names starting with "[b]fof_[/b]":
+[code]fof_sv_currentmode 1[/code]
+[*] Alternatively, enter this command and press [b]ENTER[/b] to set the game for [b]FoF[/b] "Team-Play" mode (used by maps with names starting with "[b]tp_[/b]":
+[code]fof_sv_currentmode 2[/code]
+[*] The full list of possible game-modes are:
+[code]1 = Deathmatch and/or Team-Deathmatch
+2 = Team-based Objectives, Zone-Capture, etc.
+3 = Break Bad
+4 = Elimination
+5 = Versus
+6 = Cooperative[/code]
+[*] The command to start the game (using the map of your choice), is the [i]not-ironically-named[/i] "[b]map[/b]" command.  Simply enter "[b]map[/b]", followed by a space, then the name of the map you want to start, and then press [b]ENTER[/b].  For example:
+[code]map fof_cripplecreek[/code]
+[/list]
+[hr]
+[h1]Capturing a screenshot:[/h1]
+Move around the map in [b]FoF[/b] in "spectator" mode, and find point-of-view that you think would best show most to a player [i]which[/i] map this is - for them to [i]recognize[/i] it easily later.
+
+[u]Using [b]Steam[/b]'s screenshot feature[/u]:
+[list]
+[*] Use whatever hot-key you have setup for Steam's screenshot function.  The default if [b]F12[/b].
+[*] Close [b]FoF[/b].
+[*] [i]Right-click[/i] on the Steam icon in the bottom-right corner of the Windows task-bar.
+[*] Select the [b]Screenshots[/b] option.
+[*] Browse through the recent screenshot and click on the one you want to use.
+[*] [i]Right-click[/i] on the image, and select the [b]Copy to clipboard[/b] option.
+[*] Open your image editor ([b]Paint.NET[/b] or whatever editor you are using) and paste the clipboard contents into it.
+[*] Save a copy of the image somewhere you can find it easily.
+[/list]
+
+
+4 - Resizing and editing the screenshot
+
+Using [b]Paint.NET[/b] (or whatever other imaged editor you using), open the copy of the screenshot you saved earlier.
+
+Overall, here is what you need to accomplish at this stage:
+[list]
+[*] Open the screenshot.
+[*] Resize it to a [b]width[/b] of ([i]exactly[/i]) [b]256 pixels[/b].
+[*] Allow the [b]height[/b] to be [i]resized proportionally[/i] automatically.
+[*] Resize the image "canvas" to be [i]exactly[/i] [b]256x256[/b] pixels, the with existing image contents being [i]centered[/i] on the newly-expanded canvas.
+[*] Optionally, darken the image some to allow the (later added) text to stand-out better.
+[*] Optionally, overlay text on the [b]center[/b] of the image - containing [i][b]name[/b] of the map[/i].
+[*] Save the image someplace you can find it later.
+[/list]
+Specifically, in [b]Paint.NET[/b] that is accomplished by doing this:
+[list]
+[*] Open the screenshot.
+[*] Select the"[b]Resize...[/b] option from the [b]Image[/b] menu.
+[*] Set the [b]Width[/b] option to [b]256[/b] pixels.
+[previewicon=40004661;sizeThumb,inline;HSB-Thumbnail-Creation-Pic3-Notated.jpg][/previewicon]
+[*] Click [b]Ok[/b] to apply the image resize change.
+[*] Select the"[b]Canvas size...[/b] option from the [b]Image[/b] menu.
+[*] Set the [b]Height[/b] option to [b]256[/b] pixels.
+[*] Ensure the [b]Anchor[/b] option is set to [b]Middle[/b].
+[*] Ensure the [b]Fill[/b] option is set to [b]Black[/b].
+[previewicon=40004662;sizeThumb,inline;HSB-Thumbnail-Creation-Pic4-Notated.jpg][/previewicon]
+[*] Click [b]Ok[/b] to apply the canvas resize change.
+[*] Select the"[b]Brightness / Contrast[/b] option from the [b]Adjustments[/b] menu.
+[*] Adjust the [b]Brightness[/b] option to darken the image some (in particular if it is an outdoor daylight map) to allow the text (that you will apply next) show to better.
+[previewicon=40004663;sizeThumb,inline;HSB-Thumbnail-Creation-Pic5-Notated.jpg][/previewicon]
+[*] Click [b]Ok[/b] to apply the brightness change.
+[*] Press [b]F8[/b] to open the color-selection tool.
+[*] In the color-selection tool, select which color you want to use for the text.  I strongly suggest some shade of [b]yellow[/b] - in keeping with [b]FoF[/b]'s dusty look.
+[*] Select the [b]Text[/b] tool from the left-side tool-bar (Hint: It looks like a capital "T").
+[*] Click on the image, type the name of the map.  Reposition the resultant text as needed to get it approximately centered.
+[*] Save the (now resized, darkened and labeled) image someplace you can find it later.
+[/list]
+The evolution of the image (from screenshot to thumbnail) should look something like this:
+[previewimg=40004664;sizeFull,inline;HSB-Thumbnail-Creation-Overview.jpg][/previewimg]
+
+
+5 - Converting to VTF format
+
+Once you have the thumbnail-sized image created in the correct size (exactly [b]256 x 256 pixels[/b]) with the visual content you like, the next step is to convert it to the Valve-proprietary [url=https://developer.valvesoftware.com/wiki/VTF_(Valve_Texture_Format)]VTF[/url] that is used by the [url=https://developer.valvesoftware.com/wiki/Source]Source[/url] game-engine for handling images.
+
+[h1]Background and Caveats:[/h1]
+Obviously, being a "thumbnail" it is easy to understand why having the original image be so small is desirable.  There is no point in wasting memory or CPU in-game to resize a large image dynamically down to a thumbnail size on the fly.  It is less of a resource burden to just have it drawn on-screen as a natively smaller size - or in [b]FoF[/b]'s case resized from a small size to another small size.
+
+The reason for the [i]exact[/i] [b]256 pixel by 256 pixel[/b] size, is a bit more technical.  If you ever had cause to make a custom in-game "texture" to use as part of a new map, then you are probably already familiar with this.  But, I will discuss it a bit here for the benefit of those not already familiar with it (i.e. server operators, etc.).
+
+Most game-engines (including [url=https://developer.valvesoftware.com/wiki/Source]Source[/url], which [b]FoF[/b] is based-on) only work with images whose [i]dimensions[/i] are [i]even[/i] [b]powers-of-two[/b].  They do not necessarily have to be specifically [i]square[/i], but [i]both dimensions[/i] must be even [b]powers-of-two[/b].  These would include either [b]X[/b] or [b]Y[/b] axis being numbers such as:
+[list]
+[*] 16
+[*] 32
+[*] 64
+[*] 128
+[*] 256
+[*] 512
+[*] 1024
+[/list]
+As a result, some example images sizes might include:
+[list]
+[*] 128 x 128 (square)
+[*] 256 x 256 (square)
+[*] 128 x 256 (rectangular, horizontal)
+[*]  256 x 128 (rectangular, vertical)
+[/list]
+Additionally, the [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] "[b]Highlighted Server Browser[/b]" ([b]HSB[/b]) feature does some further manipulation of the [b]VTF[/b]  (dynamically [i]resizing[/i] and [i]cropping[/i]) when displaying it. Apparently, the [b]HSB[/b] feature requires/expects the original thumbnail to be [i]exactly[/i] [b]256x256 pixels[/b].
+
+Although the [b]VTF[/b] is square, the thumbnails are largely based on screen-captures with either a 4:3 or 16:9 screen ratio.  As a result, although the [b]VTF[/b] is [b]256x256[/b] pixels (square), the image gets [i]resized slightly[/i] and [i]cropped[/i] to roughly [b]238x162[/b] pixels (a [i]roughly[/i] [b]4:3[/b] ratio) when displayed in the [b]HSB[/b].
+
+This is why when [i]resizing the [b]canvas[/b][/i] of the original image earlier, it was important to [b]center[/b] the content in the middle of the resized canvas.  Additionally, the resultant black bands at the top and the bottom (although [i]partially[/i] cut-off by the on-screen resizing/cropping) provide good contrast for the [i]lighter-colored text[/i] that the [b]HSB[/b] will overlay on the thumbnail with information about the server.
+
+Further, the way the Valve-proprietary [url=https://developer.valvesoftware.com/wiki/VTF_(Valve_Texture_Format)]VTF[/url] system works, [b]VMT[/b] files (referred to as "textures") are typically accompanied by [b]VMT[/b] files (referred to as "materials").  A material may actually have multiple different textures associated with it.  Think of the [b]VTF[/b] as the image portion, and the [b]VMT[/b] as the [i]meta-data[/i] that provides the game-engine ([url=https://developer.valvesoftware.com/wiki/Source]Source[/url]) additional information it need to know how to use it properly.
+
+[h1]The Process:[/h1]
+The to accomplish the format conversion, is by using the free [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url] utility.  Alternatively, [url=http://www.riintouge.com/VIDE/]VIDE[/url] has a built-in function similar to [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url] that should suffice (although, I have not tried it myself).
+
+Overall the process is essentially:
+[list]
+[*] Open [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url].
+[*] Ensure automatic [b]VMT[/b] creation is [i]enabled[/i].
+[*] [b]Import[/b] your existing image.
+[*] Set the [b]VTF Options[/b] [i]correctly[/i].
+[*] Save the resultant [b]VTF[/b] with the [i]expected naming-convention[/i].
+[/list]
+
+[h1]Example, Part-1 (VTF):[/h1]
+Continuing the example, using the image from earlier sections:
+[list]
+[*] Open [url=https://github.com/NeilJed/VTFLib/releases/tag/1.3.2]VTFEdit[/url].
+[*] Ensure the [b]Auto Create VMT File[/b] option [i]is checked[/i] the [b]Options[/b] menu.
+[*] Select [b]Import[/b] from the [b]File[/b] menu, and select the thumbnail image you have made.
+[*] The [b]VTF Options[/b] dialog should pop-up, asking that properties you want for this [b]VTF[/b].
+[*] On the [b]General[/b] tab, ensure the options selected match what is shown in this image:
+[previewicon=40025720;sizeThumb,inline;HSB-Thumbnail-Creation-Pic6-Notated.jpg][/previewicon]
+[*] On the [b]Advanced[/b] tab, ensure the options selected match what is shown in this image:
+[previewicon=40025718;sizeThumb,inline;HSB-Thumbnail-Creation-Pic7-Notated.jpg][/previewicon]
+[*] Optionally, on the [b]Resources[/b] tab, enable the [b]Create Information Resource[/b] option and fill-out the information in a similar manner as shown in this image - but with whatever information of your own that you think would be appropriate:
+[previewicon=40025717;sizeThumb,inline;HSB-Thumbnail-Creation-Pic8-Notated.jpg][/previewicon]
+[*] Click the [b]Ok[/b] button to close the [b]VTF Options[/b] dialog.
+[*] The screen should then look something like what is shown in the following images:
+[previewicon=40025716;sizeThumb,inline;HSB-Thumbnail-Creation-Pic9-Notated.jpg][/previewicon]
+[previewicon=40025715;sizeThumb,inline;HSB-Thumbnail-Creation-Pic10-Notated.jpg][/previewicon]
+[previewicon=40025714;sizeThumb,inline;HSB-Thumbnail-Creation-Pic11-Notated.jpg][/previewicon]
+[*] Select [b]Save[/b] from the [b]File[/b] menu to save the file.  Be sure to name the file with the following convention: "[b]menu_thumb_[/b]" (exactly) followed by the exact map name.  For example:
+[code]menu_thumb_fof_somemapname.vtf[/code]
+[u]NOTE[/u]: The [b].vtf[/b] part should be added automatically.
+[/list]
+[h1]Example, Part-2 (VMT): - [i]No, you are [b]not[/b] done yet![/i][/h1]
+Since you enabled [b]Auto Create VMT Files[/b], when you saved the [b]VTF[/b], the utility should have also created a matching [b].vmt[/b] file [i]in the same location[/i].
+[list]
+[*] Open the [b].vmt[/b] file in a [i]text-editor[/i] (Windows Notepad, Notepad++ or whatever you use).
+[*] The existing content will look something like this:
+[code]
+"LightmappedGeneric"
+{
+	"$basetexture" "blah/blah/blah/menu_thumb_[b]fof_somenewmap[/b]"
+}
+[/code]
+[*] Replace the contents with the equivalent of this, [i][b]substituting[/b] the actual name of the map[/i] instead of "fof_somenewmap":
+[code]
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\maps/menu_thumb_[b]fof_somenewmap[/b]"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+	"$nolod" "1"
+}
+[/code]
+[*] Save the updated [b].vmt[/b] file.
+[/list]
+You will notice that the final [b].vmt[/b] file contains the path "[b]vgui\maps[/b]".  This path is [i]relative to the [b]fof/materials[/b] sub-folder[/i] of your [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] installation.  For example:
+[code]C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\materials[/code]
+Consequently, map preview thumbnails for all custom maps in [b]FoF[/b] are stored (assuming a default installation on Windows), here:
+[code]C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof\materials\vgui\maps[/code]
+[u]NOTE[/u]: [b]Always[/b] keep the resultant [i]matching[/i] [b].vtf[/b] and [b].vmt[/b] files [i]together[/i] - [i]in the same folder.[/i]
+
+
+6 - Getting the thumbnail(s) to players
+
+As map authors for [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] and/or other [url=https://developer.valvesoftware.com/wiki/Source]Source[/url]-engine games are likely already aware, there are often [i]additional[/i] files associated with a map - which should be [i]distributed with it[/i].
+
+Commonly, these might be:
+[list]
+[*] [i]Navigation[/i] files ([b].nav[/b]) - for servers hosting the map (or players running it locally) to be able to use in-game "bots".
+[*] [i]Readme[/i] type text files ([b].txt[/b]) - to provide additional information to players.
+[*] [i]Configuration[/i] files ([b].cfg[/b]) - for servers hosting the map.
+[*] Custom [i]sound[/i] files ([b].mp3[/b] and/or [b].wav[/b]) that the map requires.
+[*] Custom [i]3d model[/i] files ([b].mdl[/b]) that the map requires.
+[*] Custom [i]texture[/i] files ([b].vtf[/b] and [b].vmt[/b]) that the map requires - [i]including[/i] map preview thumbnail textures for the  [b]HSB[/b] feature of [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] (the reason for [b][i]this guide[/i][/b])!
+[/list]
+There are several ways to ensure that these files are kept with the map when it is distributed.  There is a bit of history here with different methods - which it is worth knowing because [i]different[/i] or even [i]multiple[/i] techniques may be used in different [i]circumstances[/i].  Allowing for variations, the [b]four[/b] ([b]4[/b]) most common methods are:
+[olist]
+[*] Embedding everything directly into the map's [url=https://developer.valvesoftware.com/wiki/BSP_(Source)]BSP[/url] file. To a limited extent, this method pre-dates the [url=https://developer.valvesoftware.com/wiki/Source]Source[/url] engine, dating back to the prior [url=https://developer.valvesoftware.com/wiki/GoldSrc]GoldSrc[/url] engine.  It has now become the very-much [i]preferred/standard practice[/i] for distributing any map that requires other files [i]that are not part of the base game installation[/i] (i.e. "custom" files) - in particular regarding custom [b]sounds[/b], [b]models[/b] and/or [b]textures[/b].
+[*] Using a map-specific [url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]resource list[/url] - typically used when distributing the map as a zipped-archive ([b].zip[/b]) file.  This is the oldest technique, and pre-dates the [url=https://developer.valvesoftware.com/wiki/Source]Source[/url] engine entirely, dating back to the prior [url=https://developer.valvesoftware.com/wiki/GoldSrc]GoldSrc[/url] engine - [i]possibly[/i] even further to some version of the [url=https://en.wikipedia.org/wiki/Quake_engine]Quake[/url] engine.  [i]Game-servers[/i] still often use this technique to work-around custom maps that do not already have everything [i]embedded[/i].
+[*] Packaging everything in a [url=https://developer.valvesoftware.com/wiki/VPK]VPK[/url] file.  This newest method has become common, since the advent of the [url=https://developer.valvesoftware.com/wiki/Steam_Workshop]Steam Workshop[/url].  It accomplishes something similar to embedding directly into the map's [url=https://developer.valvesoftware.com/wiki/BSP_(Source)]BSP[/url] file, without some of the downsides.  However, it has its own downsides for servers hosting custom maps.
+[*] For [i]server operators[/i], using a 3rd-party server-side modifications (such as [url=http://sourcemod.net]SourceMod[/url]) to download the files to players as they connect to the server to play the map.  This last method, is typically used by server operators to work-around existing maps that require related files but [i]do not include them already [b]embedded[/b][/i], or to download files that apply to [i]multiple[/i] maps - or are associated with custom server-side plug-ins.
+[/olist]
+Each of these methods is discussed in more detail, in the sections that follow.
+
+
+7 - Embedding into the BSP
+
+[u]NOTE[/u]: This method will [i][b]require[/b][/i] a computer capable of running [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] with [url=https://developer.valvesoftware.com/wiki/HDR]HDR[/url] [i]enabled[/i].  See the "[b]Consequences[/b]" sections below for more information.  This is not necessarily true for all [url=https://developer.valvesoftware.com/wiki/Source]Source[/url]-based games.  But, it is for [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] [i]specifically[/i].
+
+Another method for ensuring file dependencies ([i]such as [b]HSB[/b] map preview thumbnails[/i]) are met, is to [i]embed[/i] them directly into the [b].bsp[/b] file, after compiling (or re-compiling) the map.
+
+[h1]Background and Caveats:[/h1]
+The [url=https://developer.valvesoftware.com/wiki/Source]Source[/url] game-engine's implementation of the [url=https://developer.valvesoftware.com/wiki/BSP_(Source)]BSP[/url] format both allows for various files to be [i]embedded[/i], and also preserving paths [i]relative to the game folder[/i].  Which, in the case of [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] is the "[b]fistful of frags\fof[/b]" folder.
+
+This is the preferred practice for handling such files - so that no [b].res[/b] file or any other special handling should be required.  This works well for:
+[list]
+[*] Map-specific [i]configuration[/i] ([b].cfg[/b]) files that contain any default settings the map may need to be best experienced.  [u]NOTE[/u]: Server operators can override this behavior by having a file with a matching name installed in the correct path on the server - [i]which will take precedence over[/i] the version embedded into the map.
+[*] Custom [i]sound[/i] ([b].mp3[/b] and/or [b].wav[/b]) files played by entities in the map.
+[*] Custom [i]3d model[/i] ([b].mdl[/b]) files used as props in the map.
+[*] Custom [i]texture[/i] ([b].vtf[/b] and [b].vmt[/b]) files applied to various architecture of the map.  Or in the case of this guide - [i][b]HSB[/b] map preview thumbnails![/i]
+[/list]
+Even though the source ([b].vmf[/b]) for the map has not changed, if you alter a [b].bsp[/b] after map compilation by [i][b]adding[/b][/i] (or [i][b]removing[/b][/i]) [i][u]any[/u] embedded files[/i], you will have to fix some things that potentially [i]break[/i].  In particular, something called "[url=https://developer.valvesoftware.com/wiki/Cubemaps]cube-maps[/url]".
+
+This creates one downside: If there is a need to update any of those embedded files [i]after[/i] the map's release.  For example: Sometimes a map author might want to re-generate or (repeatedly) manually alter the [i]navigation[/i] ([b].nav[/b]) file for a map - while doing some trial-and-error troubleshooting of the navigation mesh that in-game "bots" use.
+
+Alternatively, if you keep the [i]navigation[/i] ([b].nav[/b]) file external to the [b].bsp[/b], you will not encounter that issue - short of modifying some [i]other[/i] embedded files of course.
+
+[h1]The process:[/h1]
+Process essentially consists of:
+[list]
+[*] Open [url=https://developer.valvesoftware.com/wiki/VIDE]VIDE[/url].
+[*] Open [b]VIDE[/b]'s "[b]Pakfile Lump Editor[/b]" feature (last icon on the right of the tool-bar).
+[*] Click the [b]Open[/b] button to browse for and select the [b].bsp[/b] file.
+[*] Click the [b]Add[/b] button to browse for and select [u][i]both[/i][/u] the [b].vtf[/b] [i]and[/i] [b].vmt[/b] files.
+[*] Click [b]Ok[/b] to close the next screen.
+[*] On the screen after that, remove the existing text and enter [i]exactly[/i]:
+[code]materials/vgui/maps[/code]
+[*] Click [b]Ok[/b] to close the that screen.
+[*] Check that the new files are in the list now.  You may have to scroll-down to find them.
+[*] Click the [b]Save[/b] to save the changes to the [b].bsp[/b] file.
+[*] After the changes are saved, the new files should change color in the list to [b]green[/b].
+[*] You may now close the [b]Pakfile Lump Editor[/b], by clicking the check-box in the upper-right corner of the sub-window.
+[*] You may now close  [b]VIDE[/b], by selecting [b]Exit[/b] from the [b]File[/b] menu.
+[/list]
+[u]NOTE[/u]: This process may also be used to embed [i]other[/i] files into the [b].bsp[/b].  Just ensure that you enter the [i]required [b]relative[/b] path for those particular files[/i] when prompted - instead of "[b]materials/vgui/maps[/b]".
+
+[h1]Example:[/h1]
+Using "[b]fof_somenewmap[/b]" as an example, the process should look something like this:
+[list]
+[*] Open [b]VIDE[/b]'s "[b]Pakfile Lump Editor[/b]" feature ...
+[previewimg=40031459;sizeFull,inline;HSB-Thumbnail-Creation-Pic12-Notated.jpg][/previewimg]
+[*] Click the [b]Open[/b] button to browse for and select the [b].bsp[/b] file ...
+[previewimg=40031458;sizeFull,inline;HSB-Thumbnail-Creation-Pic13-Notated.jpg][/previewimg]
+[previewicon=40031457;sizeThumb,inline;HSB-Thumbnail-Creation-Pic14-Notated.jpg][/previewicon]
+[*] Click the [b]Add[/b] button to browse for and select [u][i]both[/i][/u] the [b].vtf[/b] [i]and[/i] [b].vmt[/b] files ...
+[previewimg=40031456;sizeFull,inline;HSB-Thumbnail-Creation-Pic15-Notated.jpg][/previewimg]
+[previewicon=40031455;sizeThumb,inline;HSB-Thumbnail-Creation-Pic16-Notated.jpg][/previewicon]
+[*] Click [b]Ok[/b] to close this next screen ...
+[previewicon=40031454;sizeOriginal,inline;HSB-Thumbnail-Creation-Pic17-Notated.jpg][/previewicon]
+[*] On the screen after that, remove the existing text and enter [i]exactly[/i]:
+[code]materials/vgui/maps[/code]
+[previewicon=40031453;sizeOriginal,inline;HSB-Thumbnail-Creation-Pic18-Notated.jpg][/previewicon]
+[*] Check that the new files are in the list now.  You may have to scroll-down to find them ...
+[previewimg=40031452;sizeFull,inline;HSB-Thumbnail-Creation-Pic19-Notated.jpg][/previewimg]
+[*] Click the [b]Save[/b] to save the changes to the [b].bsp[/b] file ...
+[previewimg=40031451;sizeFull,inline;HSB-Thumbnail-Creation-Pic20-Notated.jpg][/previewimg]
+[/list]
+Now deal with the [b]consequences[/b], as detailed in the next section.
+
+
+8 - Consequences of embedding
+
+If you have  [i]altered the contents of the [b].bsp[/b] file[/i] post-compilation (or re-compilation) you will likely have to perform several tasks, including:
+[list]
+[*] Re-generate the [i]navigation-mesh[/i] ([b].nav[/b]) file.  Yep, another good reason to [i]not embed the navigation file[/i].
+[*] Rebuild the SDR ([i]standard[/i] dynamic range)  [url=https://developer.valvesoftware.com/wiki/Cubemaps]cubemaps[/url].
+[*] Rebuild the HDR ([i]high[/i] dynamic range)   [url=https://developer.valvesoftware.com/wiki/Cubemaps]cubemaps[/url].
+[/list]
+[h1]Consequence: Navigation-mesh regeneration[/h1]
+[list]
+[*] Start [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
+[*] Ensure the "[b]Developer Console[/b]" is enabled in [b]FoF[/b].  See prior notes under the [b]Capturing a screenshot[/b] section for this.
+[*] Start a game (locally) with the map.  See prior notes under the [b]Capturing a screenshot" section for this.
+[*] Press [b]tilde[/b] ("[b]~[/b]") to open the [b]Console[/b].
+[*] Enter the following commands into the [b]Console[/b]:
+[code]
+sv_cheats 1;
+nav_generate;
+[/code]
+[*] It may take some time for that to complete.
+[*] When it is complete, you can exit [b]FoF[/b].
+[*] Save the resultant matching [b].nav[/b] file for distribution with the map.
+[/list]
+[h1]Consequence: SDR cubemap repair[/h1]
+[list]
+[*] Start [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
+[*] Ensure the "[b]Developer Console[/b]" is enabled in [b]FoF[/b].  See prior notes under the [b]Capturing a screenshot[/b] section for this.
+[*] Start a game (locally) with the map.  See prior notes under the [b]Capturing a screenshot" section for this.
+[*] Press [b]tilde[/b] ("[b]~[/b]") to open the [b]Console[/b].
+[*] Enter the following commands into the [b]Console[/b]:
+[code]
+sv_cheats 1;
+mat_hdr_level 0;
+mat_specular 0;
+buildcubemaps;
+[/code]
+[*] It may take some time for that to complete.
+[*] Proceed to also perform the [b]HDR cubemap repair[/b] (next) also.
+[/list]
+[h1]Consequence: HDR cubemap repair[/h1]
+[list]
+[*] Start [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] ([b]FoF[/b]).
+[*] Ensure the "[b]Developer Console[/b]" is enabled in [b]FoF[/b].  See prior notes under the [b]Capturing a screenshot[/b] section for this.
+[*] Start a game (locally) with the map.  See prior notes under the [b]Capturing a screenshot" section for this.
+[*] Press [b]tilde[/b] ("[b]~[/b]") to open the [b]Console[/b].
+[*] Enter the following commands into the [b]Console[/b]:
+[code]
+sv_cheats 1;
+mat_hdr_level 2;
+mat_specular 0;
+buildcubemaps;
+[/code]
+[*] It may take some time for that to complete.
+[*] When it is complete, you can exit [b]FoF[/b].
+[*] Save the resultant matching [b].bsp[/b] file, this is now your updated map.
+[/list]
+
+
+9 - Resource Lists
+
+Probably the oldest technique for ensuring maps get accompanied with any files they are dependent upon, is the use of [url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]resource list[/url] files.
+
+[h1]Background and Caveats:[/h1]
+These files are named matching the map they are associated with, but using the [b].res[/b] filename extension.  For example, for a map named "[b]fof_somenewmap.[u]bsp[/u][/b]", the name of its associated [url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]resource list[/url] file must be named "[b]fof_somenewmap.[u]res[/u][/b]".  It must also be located in the [i]same folder as the map's [b].bsp[/b] file[/i].
+
+If you are going to distribute your map with other files it requires together in one [b].zip[/b] file, I strongly suggest two important things:
+[list]
+[*] Obviously, include a [b].res[/b] file - as detailed in this guide.
+[*] [b]Do [u]NOT[/u][/b] just make a [b].zip[/b] file with [i]everything in the same folder[/i].  Make all the file paths relative to the [b]fistful of frags\fof[/b] folder.  This would mean making a "[b]maps[/b]" sub-folder to put the [b].bsp[/b], [b].nav[/b] and [b].res[/b] files into, as well as the other folders for any required files - all relative to the [b]fistful of frags\fof[/b] folder.
+[/list]
+[url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]Resource list[/url] files are critical if you are creating a new custom map [i]that requires on [b]any[/b] custom files[/i] that are [b]neither[/b]:
+[list]
+[*] Included are part of the [i]default game installation[/i], [b]nor[/b]
+[*] [i]Embedded[/i] directly into the map's [b].bsp[/b] file.
+[/list]
+A player may be able to play a game [i]locally[/i] without the presence of a [url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]resource list[/url] file, [i]if they already have the additionally file dependencies installed[/i].  However, servers hosting such a map may not [i]automatically download all of those dependencies[/i] to players computers (which [i]may[/i] or [i]may [b]not[/b][/i] have ever had the map manually installed locally).
+
+If a server is hosting a map, and there is a matching [b].res[/b] file for it, the server will automatically "pre-cache" all the files listed in the [b].res[/b] (assuming they exist on the server) - effectively causing them to be downloaded.  Further, if the server is using the "[b]sv_downloadurl[/b]" feature to off-load downloads to a back-end web-server, it will cause the player's game-client to download them from there - as it would with the map file itself.
+
+[h1]The Process and Example:[/h1]
+A new [url=https://developer.valvesoftware.com/wiki/Resource_list_(Source)]resource list[/url] file can be easily created with any text-editor.  The content is very simple.  It is basically a list of all the custom files that the map requires, with paths relative to the game's folder.  In the case of [url=https://store.steampowered.com/app/265630]Fistful of Frags[/url] (assuming a default installation on Windows), that would be relative to:
+[code]C:\Program Files (x86)\Steam\steamapps\common\Fistful of Frags\fof[/code]
+As an example, below is sample content that would be associated with a new map named "[b]fof_somenewmap[/b]":
+[code]
+"Resources"
+{
+	"maps/fof_somenewmap.res"	"file"
+	"maps/fof_somenewmap.txt"	"file"
+	"maps/fof_somenewmap.nav"	"file"
+	"cfg/mapcfg/fof_somenewmap.cfg"	"file"
+	"materials/vgui/maps/menu_thumb_fof_somenewmap.vmt"	"file"
+	"materials/vgui/maps/menu_thumb_fof_somenewmap.vtf"	"file"
+}
+[/code]
+That is just an example.  It is not mandatory to include custom [b].cfg[/b] or [b].txt[/b] files.  They are shown just for reference regarding how (and in what paths) they are commonly handled.  In particular, for [b]FoF[/b] map-specific [i]configuration[/i] ([b].cfg[/b]) files go into the [b]cfg/mapcfg[/b] sub-folder.  With regard to [i]navigation[/i] ([b].nav[/b]) files, they are often [i]embedded directly[/i] into the map's [b].bsp[/b] file - although there can be down-sides to that.  Of course, the [b].vtf[/b] and [b].vmt[/b] files shown would be associated with the [b]HSB[/b] thumbnail for this map.
+
+
+10 - Packaging in a VPK
+
+Another mechanism for ensure maps get distributed with various files they are dependent-upon, is to package everything together in a [url=https://developer.valvesoftware.com/wiki/VPK]VPK[/url] file.  This newest method has become common, since the advent of the [url=https://developer.valvesoftware.com/wiki/Steam_Workshop]Steam Workshop[/url].
+
+It accomplishes something similar to embedding directly into the map's [url=https://developer.valvesoftware.com/wiki/BSP_(Source)]BSP[/url] file, without some of the downsides.  However, it has its own downsides for servers hosting custom maps.
+
+[url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] ([b]FoF[/b]) does implement the [url=https://developer.valvesoftware.com/wiki/Steam_Workshop]Steam Workshop[/url] as part of it's [i]client-side[/i] functionality.
+
+Unfortunately, [b]FoF[/b] [i]does [b]not[/b][/i] implement the [url=https://developer.valvesoftware.com/wiki/Steam_Workshop]Steam Workshop[/url] in any meaningful [i]server-side[/i] mechanism - unlike some other [url=https://developer.valvesoftware.com/wiki/Source]Source[/url]-engine games.
+
+Consequently, publishing your map into the [url=https://developer.valvesoftware.com/wiki/Steam_Workshop]Steam Workshop[/url] generally does not help get server-operators to host games with it.  Server operators would have go through extra hoops (especially if it is wrapped in a [url=https://developer.valvesoftware.com/wiki/VPK]VPK[/url]) to host games with it.
+
+Regardless, if you want to tinker with packaging your map into a [url=https://developer.valvesoftware.com/wiki/VPK]VPK[/url], you will need to get familiar with the [url=https://developer.valvesoftware.com/wiki/VPKEdit]VPKEdit[/url] utility.
+
+A tutorial on using [url=https://developer.valvesoftware.com/wiki/VPKEdit]VPKEdit[/url] is beyond the scope of this guide.  It is mentioned largely because it is something some map and/or mod authors may [i]already be familiar with[/i], or have "heard of".
+
+
+11 - Using SourceMod to help
+
+From a dedicated game-server operators perspective, clients not already having [b]HSB[/b] map preview thumbnails installed for the maps you are hosting can really effect the traffic going to your server.  This is because, players (especially new players) have a tendency to not want to click on servers in the [b]HSB[/b] with the generic "[b]Custom Map[/b]" icon shown - instead of an actual preview of the current map.
+
+Having [b]HSB[/b] map preview thumbnails distributed with each map does help, but only in the case where a player has played on that map [i]at least once before[/i] (resulting in it, and hopefully its [b]HSB[/b] map preview thumbnail) getting installed to be visible [i]in the future[/i].
+
+As with many things with [url=https://developer.valvesoftware.com/wiki/Source]Source[/url]-engine games, [url=http://sourcemod.net]SourceMod[/url] is your friend!
+
+Using the [url=https://forums.alliedmods.net/showthread.php?p=602270]Downloader/Pre-Cacher[/url] plug-in for [url=http://sourcemod.net]SourceMod[/url], could download the [b]HSB[/b] map preview thumbnails associated with all the custom maps you host - at the same time.  In this manner, when a player connects to play, in addition to downloading the map (if they do not have it already) they will automatically get the [b]HSB[/b] map preview thumbnails for it and all the other custom maps you host at once.  This will have the benefit (to the player) to see map preview thumbnails for all the custom maps you host - and hopefully never see the dreaded generic "[b]Custom Map[/b]" icon for your server(s).
+
+
+12 - The community thumbnail archive
+
+For your-convenience, I have uploaded a [i]large archive[/i] of [b]HSB[/b] map preview thumbnail for many custom [b]FoF[/b] maps to the GitHub.  Authors creating maps for [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url], are welcome to send the [b]HSB[/b] preview thumbnails for their maps - to have them added to the community archive.
+
+For [url=https://store.steampowered.com/app/265630/]Fistful of Frags[/url] game-server operators, the three relevant files are:
+[olist]
+[*] A sample [b]downloads_simple.ini[/b] file, available [url=https://raw.githubusercontent.com/Mecha-Weasel/spittoon/refs/heads/main/fof/addons/sourcemod/configs/downloads_simple.thumbnails.ini]here[/url].  It contains entries for all the [b]HSB[/b] map preview thumbnails in the archives below.  Obviously, you might want to edit a copy of this, [i]leaving-in[/i] just the entries for the custom maps that [b]your[/b] server hosts.  If you are already using the [url=https://forums.alliedmods.net/showthread.php?p=602270]Downloader/Pre-Cacher[/url] plug-in, you can just add the relevant entries to your existing [b]fof/addons/sourcemod/configs/downloads_simple.ini[/b] file.
+[*] An archive (in [b].zip[/b] format), available [url=https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-GameServer.zip]here[/url]  It contains a collection of [b]HSB[/b] map preview thumbnails (matching pairs of [b].vtf[/b] and [b].vmt[/b] files) for a large number of custom maps for [b]FoF[/b] - collected from various servers.
+[*] Another archive (in [b].zip[/b] format), available [url=https://github.com/Mecha-Weasel/spittoon/raw/refs/heads/main/FoF-Map-Thumbnails-Latest-WebServer.zip]here[/url].  It contains the same files as above, but with each [i]individually compressed[/i] with [b]Bzip2[/b] for use in the case where servers are using [url=https://developer.valvesoftware.com/wiki/Sv_downloadurl]sv_downloadurl[/url] to re-direct content downloads to a back-end web-server (for better download speeds).
+[/olist]
