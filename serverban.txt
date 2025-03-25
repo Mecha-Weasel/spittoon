@@ -1,7 +1,7 @@
 //
-//	Updated 2024-03-04a by Weasel (Weasel.SteamID.155@gMail.com)
-//		Updated list to convert back to IP addresses only (no port information),
-//		Since recent testing has indicated that the "port" option is not currently implemented.
+//	Updated 2024-03-24a by Weasel (Weasel.SteamID.155@gMail.com)
+//		Added Scarfy (138.197.125.1)
+//		Added-back Power Games (195.160.166.201) - they had been previously removed for being down.
 //
 //	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
@@ -93,7 +93,9 @@
 		"0" { "name" "Paradise (FR)" "ip" "193.70.22.151" "port" "0" "mode" "3" }
 		"0" { "name" "Phporyx (UK)" "ip" "185.132.42.12" "port" "0" "mode" "3" }
 		"0" { "name" "PingPerfect (US)" "ip" "208.115.196.35" "port" "0" "mode" "3" }
+		"0" { "name" "Power Games (BE)" "ip" "195.160.166.201" "port" "0" "mode" "3" }
 		"0" { "name" "SadBoys (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
+		"0" { "name" "Scarfy (US)" "ip" "138.197.125.1" "port" "0" "mode" "3" }
 		"0" { "name" "Skitzofrenia / Huaji (JP)" "ip" "106.53.103.49" "port" "0" "mode" "3" }
 		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
