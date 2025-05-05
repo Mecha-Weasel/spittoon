@@ -78,6 +78,7 @@
 		"0" { "name" "Classic (RU)" "ip" "94.41.16.190" "port" "0" "mode" "3" }
 		"0" { "name" "Dr. No (US)" "ip" "74.91.123.66" "port" "0" "mode" "3" }
 		"0" { "name" "Far West (BR)" "ip" "191.36.129.72" "port" "0" "mode" "3" }
+		"0" { "name" "Far West (U.S.A)" "ip" "69.10.53.74" "port" "0" "mode" "3" }
 		"0" { "name" "FBR (BR)" "ip" "200.98.66.86" "port" "0" "mode" "3" }
 		"0" { "name" "FDCP (AU)" "ip" "139.99.239.66" "port" "0" "mode" "3" }
 		"0" { "name" "FLWN.dev (CZ)" "ip" "78.80.33.198" "port" "0" "mode" "3" }
