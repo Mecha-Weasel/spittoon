@@ -1,7 +1,6 @@
 //
-//	Updated 2024-05-05 by Weasel (Weasel.SteamID.155@gMail.com)
-//		Fixed formatting on Far West US (69.10.53.74)
-//		Updated one WL test (76.169.217.88)
+//	Updated 2024-06-10a by Weasel (Weasel.SteamID.155@gMail.com)
+//		Added new Spitoon server (81.169.196.24)
 //
 //	This is a CURATED list of FoF game-servers to display on the "highlighted server browser" (HSB).
 //	This curated list currently contains 30 known-good server IP addresses.
@@ -97,6 +96,7 @@
 		"0" { "name" "SadBoys (DE)" "ip" "185.255.121.7" "port" "0" "mode" "3" }
 		"0" { "name" "Skitzofrenia / Huaji (JP)" "ip" "106.53.103.49" "port" "0" "mode" "3" }
 		"0" { "name" "Synergy (NZ)" "ip" "203.94.32.111" "port" "0" "mode" "3" }
+		"0" { "name" "Spitoon (??)" "ip" "81.169.196.24" "port" "0" "mode" "3" }
 		"0" { "name" "Titty Twist (DE)" "ip" "85.214.117.246" "port" "0" "mode" "3" }
 	}
 }
