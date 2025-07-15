@@ -1,3 +1,15 @@
+!!! UPDATE as of July 2025 !!!
+==============================
+Some things to note:
+1) The developer has "returned" (kind-of, behind-the-scenes anyway).
+2) The "official" HSB data has been updated recently (starting in early July 2025).
+3) Access to keep the HSB data has been delegated to another individual, active in the community.
+4) Conquently, the "FoF Community Server List Update (aka HSB Work-Around)" is effectively REDUNDANT now.
+5) Since the "FoF Community Server List Update (aka HSB Work-Around)" is no longer needed, I recommend UNINSTALLING it to ensure you get the latest HSB data.
+6) I have also updated the "community" HSB data to match the "official" HSB data, to assist with players transitioning back to normal operation.
+7) Some of the information in this document and others will now be out of date, but retained for later reference.
+8) The "FoF Community Map Thumbnails Update (aka HSB Thumbnails)" IS STILL RELEVANT, and I still recommend installing that.  It was always a seperate installation - for just such a scenario.
+
 Project "Spittoon":
 ==================
 
