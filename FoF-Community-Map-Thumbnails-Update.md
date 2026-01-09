@@ -1,3 +1,9 @@
+
+!!! UPDATE as of January 2026 !!!
+=================================
+1) DO feel free to install the "FoF-Community-Map-Thumbnails-Update"! That update just adds MAP PREVIEW THUMBNAILS for custom maps that are not included with a default FoF installation.
+2) Do NOT attempt to use the "FoF-Community-Server-List-Update"! That update was to work-around the developers previous prolonged absense.  He is back now, and this is no longer required, desired or compatible with new versions of FoF!
+
 Community Map Thumbnails Update (HSB Thumbnails) for Fistful of Frags (FoF):
 ===========================================================================
 
