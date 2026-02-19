@@ -1,3 +1,10 @@
+!!! UPDATE as of February 2026 !!!
+==================================
+
+* Do NOT use this verson of the map preview thumbnail archive!
+* This version of the archive will no longer be maintained!
+* When you get around to it, uninstall this verson from Windows Control Panel.
+* After uninstalling this version, check-out and install the new version, here ... [Fistful of Frags Map Preview Thumbnail Archive (updated)(https://github.com/Mecha-Weasel/fof-map-preview-thumbnail-archive).
 
 !!! UPDATE as of January 2026 !!!
 =================================
