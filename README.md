@@ -1,3 +1,10 @@
+!!! UPDATE as of February 2026 !!!
+==================================
+
+* Do NOT any of this any more!
+* Stuff in this repo will no longer be maintained!
+* When you get around to it, uninstall this stuff from Windows Control Panel.
+* After uninstalling this stuff, check-out and install the new home of HSB map preview thumbnails archive, here ... [Fistful of Frags Map Preview Thumbnail Archive (updated)](https://github.com/Mecha-Weasel/fof-map-preview-thumbnail-archive).
 
 !!! UPDATE as of January 2026 !!!
 =================================
